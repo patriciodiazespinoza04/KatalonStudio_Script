@@ -11,7 +11,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6f2aa059-4030-4a1b-8b40-4080977eef34</testSuiteGuid>
    <testCaseLink>
-      <guid>ef480250-43d8-40b2-99e7-b86f4c32b598</guid>
+      <guid>9e83b95f-8ef8-46f5-9b48-aac07abefe33</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/MODULO EDITAR/CREAR NOTICIAS</testCaseId>
