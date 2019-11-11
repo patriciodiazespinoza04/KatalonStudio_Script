@@ -20,7 +20,7 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 WebUI.openBrowser('')
 
 //WebUI.navigateToUrl('https://qa.bnamericas.com/access/login;JSESSIONID=18e45aef-7101-485f-8231-1da5550b4396')
-WebUI.navigateToUrl('https://qa.bnamericas.com/cms/')
+WebUI.navigateToUrl('https://qa2.bnamericas.com/cms/')
 
 WebUI.maximizeWindow()
 
