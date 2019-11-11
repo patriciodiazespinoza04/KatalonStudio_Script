@@ -54,7 +54,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Comunicado de Prensa_control__indicator d-inline-block p-relative mr-2'))
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Columnista Invitado_control__indicator d-inline-block p-relative mr-2'))
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Native_control__indicator d-inline-block p-relative mr-2'))
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Ttulo _title'), 'Titulo Automatizacion ' + 
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Ttulo _title'), 'Titulo Noticias Automatizacion ' + 
     RandomStringUtils.randomNumeric(5))
 
 WebUI.delay(2)

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Nuevo Artculo</name>
+   <name>a_Nuevo Proyecto</name>
    <tag></tag>
-   <elementGuidId>a984778a-a17e-45f1-9b29-8d61b1ce285e</elementGuidId>
+   <elementGuidId>685f44a2-de48-4a34-8f96-13b372befe9b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,11 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'https://qa.bnamericas.com/cms/content/article/create' and (text() = '
-                        Nuevo Artículo
-                    ' or . = '
-                        Nuevo Artículo
-                    ')]</value>
+         <value>//*[@class = 'float-right btn btn__green btn-icon btn-md']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,26 +24,26 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://qa.bnamericas.com/cms/content/article/create</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>float-right btn btn__green btn-icon btn-md</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
-                        Nuevo Artículo
+                        Nuevo proyecto
                     </value>
    </webElementProperties>
    <webElementProperties>
