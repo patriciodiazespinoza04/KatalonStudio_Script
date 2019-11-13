@@ -7,23 +7,30 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'form-control w-50 mr-3 d-inline-block ng-pristine ng-valid ng-empty ng-animate ng-touched-add ng-untouched-remove ng-touched ng-touched-add-active ng-untouched-remove-active' and @type = 'text']</value>
+         <value>//*[@ng-model = 'asyncSelectedMilestones']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control w-50 mr-3 d-inline-block ng-pristine ng-valid ng-empty ng-animate ng-touched-add ng-untouched-remove ng-touched ng-touched-add-active ng-untouched-remove-active</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>asyncSelectedMilestones</value>
    </webElementProperties>
 </WebElementEntity>

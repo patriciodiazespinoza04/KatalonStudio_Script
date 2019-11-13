@@ -26,7 +26,7 @@ formattedDate_Inicio = mydate.format('dd/MM/yyyy')
 use(TimeCategory, { 
         today = new Date()
 
-        NextYear = (today + 1.year)
+        NextYear = (today + 2.year)
     })
 
 formattedDate_Fin = NextYear.format('dd/MM/yyyy')
@@ -140,8 +140,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),
-	'minera')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), 
+    'minera')
 
 WebUI.delay(1)
 
@@ -157,13 +157,13 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/Buscar_Hitos'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Hitos'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/Buscar_Hitos'), 'Descripcion de la tabla')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Hitos'), 'Descripcion de la tabla')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/Seleccione_Hito'))
+WebUI.click(findTestObject('Page_BNamericas - Noticias - Nuevo artculo/Seleccione_Hito'))
 
 WebUI.delay(1)
 
@@ -187,33 +187,23 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 
 WebUI.delay(1)
 
-
-
-
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Temas'))
 
 WebUI.delay(1)
-
-
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Noticias'))
 
 WebUI.delay(1)
 
-
-
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Reportes'))
 
 WebUI.delay(1)
-
-
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Set De Datos'))
 
 WebUI.delay(1)
 
-
-
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Personas'))
 
 WebUI.delay(1)
+
