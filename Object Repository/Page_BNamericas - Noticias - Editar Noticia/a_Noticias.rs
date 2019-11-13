@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Proyectos</name>
+   <name>a_Noticias</name>
    <tag></tag>
-   <elementGuidId>2e62f17a-d67f-4b09-968f-1f1cd3083c4b</elementGuidId>
+   <elementGuidId>9a8029a3-5fd7-4871-b148-64dd4fc4cbcc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'tab-projects-tab' and @href = '#tab-projects']</value>
+         <value>//*[@id = 'tab-article-tab' and @href = '#tab-article']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,14 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tab-projects-tab</value>
+      <value>tab-article-tab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#tab-projects</value>
+      <value>#tab-article</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
