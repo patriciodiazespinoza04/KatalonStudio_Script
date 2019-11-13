@@ -20,7 +20,7 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 WebUI.openBrowser('')
 
 //WebUI.navigateToUrl('https://qa.bnamericas.com/access/login;JSESSIONID=18e45aef-7101-485f-8231-1da5550b4396')
-WebUI.navigateToUrl('https://qa2.bnamericas.com/cms/')
+WebUI.navigateToUrl('https://qa.bnamericas.com/cms/')
 
 WebUI.maximizeWindow()
 
@@ -44,6 +44,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/a_Nuevo
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Idioma'), 
     'string:es', true)
+
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas/Proyecto_PRA'))
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Proyecto_title'), 'Titulo Proyecto Automatizacion ' + 
     RandomStringUtils.randomNumeric(5))
@@ -73,13 +75,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_Prueba de Froala automatizada'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Resumen de Froala automatizada'),
-	'Resumen de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Resumen de Froala automatizada'), 
+    'Resumen de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
 
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_1'))
-
 //WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Cuerpo de Froala automatizada'), 'Cuerpo de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
-
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/i_Guardar y enviar_fas fa-save'))
 
 WebUI.delay(3)

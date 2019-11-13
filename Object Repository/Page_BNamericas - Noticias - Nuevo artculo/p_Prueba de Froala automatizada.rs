@@ -6,11 +6,15 @@
    <elementGuidId>50237fce-cf1f-4332-bdd3-40ff972ab100</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Type something' or . = 'Type something')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='content']/div[5]/div/div/div[3]/div/p</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Prueba de Froala automatizada</value>
+      <value>Type something</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
