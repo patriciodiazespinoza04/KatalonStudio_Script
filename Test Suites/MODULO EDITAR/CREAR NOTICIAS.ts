@@ -14,6 +14,6 @@
       <guid>aa3f2e99-7f9e-40ea-8748-720c2ea2664d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MODULO EDITAR/CREAR NOTICIAS</testCaseId>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR NOTICIAS - ENTREVISTA RECOMENDADO</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
