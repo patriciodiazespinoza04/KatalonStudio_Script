@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Contenido relacionado y temas</name>
+   <name>a_Propiedades</name>
    <tag></tag>
-   <elementGuidId>924e4038-35eb-4c7e-af61-a72a3cfa3b18</elementGuidId>
+   <elementGuidId>0808f368-516e-4ebf-ae82-d6adbe3af1fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ng-click = 'contentConfigurationService.setTab(2)']</value>
+         <value>//*[@ng-click = 'contentConfigurationService.setTab(3)']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,34 +17,11 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>contentConfigurationService.setTab(2)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Contenido relacionado y temas
-                        
-                    </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;body&quot;)/main[@id=&quot;content&quot;]/div[1]/div[@class=&quot;one-column-hover outline-none ng-scope&quot;]/div[@class=&quot;detail ng-scope&quot;]/div[@class=&quot;content-page wider-detail top-70px ng-scope&quot;]/div[@class=&quot;border-bottom-nav&quot;]/div[@class=&quot;row mx-30px&quot;]/nav[@class=&quot;nav nav-pills col-12&quot;]/div[@class=&quot;d-inline-block nav-item custom-tab&quot;]/a[1]</value>
+      <value>contentConfigurationService.setTab(3)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

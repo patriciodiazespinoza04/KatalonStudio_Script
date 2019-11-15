@@ -7,11 +7,9 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '
-    
+         <value>//*[@class = 'btn btn__green btn-md' and @type = 'button' and (text() = '
     Relacionar noticias
 ' or . = '
-    
     Relacionar noticias
 ')]</value>
       </entry>
@@ -30,7 +28,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -70,7 +68,6 @@
       <name>text</name>
       <type>Main</type>
       <value>
-    
     Relacionar noticias
 </value>
    </webElementProperties>

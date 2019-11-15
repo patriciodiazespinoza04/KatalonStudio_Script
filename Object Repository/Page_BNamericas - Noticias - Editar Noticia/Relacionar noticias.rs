@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Relacionar personas - Copy</name>
+   <name>Relacionar noticias</name>
    <tag></tag>
-   <elementGuidId>b9ec4d53-b011-4111-a360-7f16fd0bb13e</elementGuidId>
+   <elementGuidId>3f2f507d-71e7-4974-a748-235f2de96631</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '
-    
-    Relacionar personas
-' or . = '
-    
-    Relacionar personas
-')]</value>
+         <value>//*[@class = 'btn btn__green btn-md' and @ng-show = 'settings.resultsContentslength &lt;= 1']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -30,11 +24,11 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-icon btn__blue--border btn-md d-block</value>
+      <value>btn btn__green btn-md</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +38,7 @@
       <value>modal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -62,17 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>changeLastContentTypeFound('dataset',settings,contentScroller)</value>
+      <value>addRelatedContens(settings)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-    
-    Relacionar personas
-</value>
+      <value>Relacionar noticia</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,6 +71,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tab-datasets&quot;)/button[@class=&quot;btn btn-icon btn__blue--border btn-md d-block&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>settings.resultsContentslength &lt;= 1</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
