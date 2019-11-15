@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Cuerpo de Froala automatizada</name>
+   <name>div_Introduccion de Froala automatizada</name>
    <tag></tag>
-   <elementGuidId>4d500caa-9e1a-4b44-8fbb-f8e544c9355b</elementGuidId>
+   <elementGuidId>4f670550-c118-4523-bf57-a471a7dd6e55</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Cuerpo' or . = 'Cuerpo')]</value>
+         <value>//*[@class = 'fr-element fr-view' and (text() = 'Type something' or . = 'Type something')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Cuerpo</value>
+      <value>Type something</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

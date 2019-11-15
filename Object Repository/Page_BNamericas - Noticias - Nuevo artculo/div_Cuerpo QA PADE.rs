@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Cuerpo de Froala automatizada</name>
+   <name>div_Cuerpo QA PADE</name>
    <tag></tag>
-   <elementGuidId>4d500caa-9e1a-4b44-8fbb-f8e544c9355b</elementGuidId>
+   <elementGuidId>888a5d70-86fa-4799-9e3c-15cdcfa53209</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='content']/div[6]/div/div/div/div[3]/div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Cuerpo' or . = 'Cuerpo')]</value>
+         <value>//div[@id='content']/div[7]/div/div/div/div[3]/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,13 +36,6 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>contenteditable</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
@@ -59,11 +48,18 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Cuerpo</value>
+      <value>Cuerpo QA PADE</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,41 +73,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='content']/div[6]/div/div/div/div[3]/div</value>
+      <value>//div[@id='content']/div[7]/div/div/div/div[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Redo'])[2]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Redo'])[3]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Undo'])[2]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Undo'])[3]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type something'])[2]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type something'])[3]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by'])[2]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by'])[3]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div/div/div/div[3]/div</value>
+      <value>//div[7]/div/div/div/div[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

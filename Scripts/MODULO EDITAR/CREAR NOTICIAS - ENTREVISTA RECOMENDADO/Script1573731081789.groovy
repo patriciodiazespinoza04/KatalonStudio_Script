@@ -16,10 +16,10 @@ import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-//WebUI.navigateToUrl('https://qa.bnamericas.com/access/login;JSESSIONID=18e45aef-7101-485f-8231-1da5550b4396')
 WebUI.navigateToUrl('https://qa.bnamericas.com/cms/')
 
 WebUI.maximizeWindow()
@@ -46,7 +46,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
     'string:es', true)
 
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Noticia_control__indicator d-inline-block p-relative mr-2'))
-
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Entrevista_control__indicator d-inline-block p-relative mr-2'))
 
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Opinin_control__indicator d-inline-block p-relative mr-2'))
@@ -82,15 +81,26 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 
 WebUI.delay(2)
 
+// RESUMEN
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_Prueba de Froala automatizada'))
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Resumen de Froala automatizada'), 
     'Resumen de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_1'))
+// INTRODUCCION
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_5'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Cuerpo de Froala automatizada'), 
-    'Cuerpo de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_Introduccion QA'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Introduccion qa PADE'),'Introduccion de Froala automatizada ' + 
+    RandomStringUtils.randomNumeric(5))
+
+// CUERPO
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_6'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Cuerpo QA PADE'), 'Cuerpo de Froala automatizada ' + 
+    RandomStringUtils.randomNumeric(5))
+
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/i_Guardar y enviar_fas fa-save'))
 
@@ -142,9 +152,68 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Reportes'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Relacionar reportes'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar reportes_form'), 'mineria')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Planta De Reciclaje De Solventes Y Produccin De Combustible Alternativo Lquido Y Slido_control__indicator'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/span_Relacionar reporte'))
+
+WebUI.delay(1)
+
+
+
+
+
+
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Set De Datos'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Personas'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Hitos'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Hitos'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Hitos'), 'Descripcion de la tabla')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_BNamericas - Noticias - Nuevo artculo/Seleccione_Hito'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Noticias'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Temas'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Boton_Publicar'))
 
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+
+
+
 
