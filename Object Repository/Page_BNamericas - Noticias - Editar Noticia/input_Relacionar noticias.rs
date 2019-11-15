@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Relacionar compaas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty</name>
+   <name>input_Relacionar noticias</name>
    <tag></tag>
-   <elementGuidId>fb9e6642-7ceb-494d-9bc4-69722fdc6777</elementGuidId>
+   <elementGuidId>4fbf22e1-279f-4629-b31a-35c8e1e64b87</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'text' and @placeholder = 'Buscar compañías...']</value>
+         <value>//*[@type = 'text' and @placeholder = 'Buscar noticias...']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Buscar compañías...</value>
+      <value>Buscar noticias...</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
