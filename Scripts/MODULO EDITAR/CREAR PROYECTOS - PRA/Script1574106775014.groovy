@@ -59,6 +59,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/a_Nuevo
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Idioma'),
 	'string:es', true)
 
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Proyecto_PRA'))
+
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Proyecto_title'), 'Titulo Proyecto Automatizacion ' +
 	RandomStringUtils.randomNumeric(5))
 
