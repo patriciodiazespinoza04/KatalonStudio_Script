@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='content']/div[5]/div/div/div[3]/div/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;body&quot;)/main[@id=&quot;content&quot;]/div[1]/div[@class=&quot;one-column-hover detail ng-scope&quot;]/div[@class=&quot;content-page wider-detail top-70px ng-scope&quot;]/div[@class=&quot;row mx-30px&quot;]/form[@class=&quot;col-12 ng-valid ng-valid-maxlength ng-valid-max-tags ng-valid-min-tags ng-valid-leftover-text ng-dirty ng-valid-parse&quot;]/div[@class=&quot;row align-items-start&quot;]/div[@id=&quot;content&quot;]/div[@class=&quot;form-group mt-3 row mx-0 pb-4 align-items-start border-bottom-title&quot;]/div[@class=&quot;col-6 pl-0&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper show-placeholder&quot;]/div[@class=&quot;fr-element fr-view&quot;]/p[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
