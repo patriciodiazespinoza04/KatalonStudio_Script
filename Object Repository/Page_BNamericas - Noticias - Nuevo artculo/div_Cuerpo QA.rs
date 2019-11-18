@@ -1,124 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty</name>
+   <name>div_Cuerpo QA</name>
    <tag></tag>
-   <elementGuidId>8bd874c7-d886-4748-842e-574371f783da</elementGuidId>
+   <elementGuidId>af0e8c7a-6527-4e73-b244-1cf55b3a4772</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[9]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @ng-change = concat('searchRelatedContent(settings.relatedSearchText,' , &quot;'&quot; , 'person' , &quot;'&quot; , ')')]</value>
+         <value>//div[@id='content']/div[6]/div/div/div/div[3]/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-change</name>
-      <type>Main</type>
-      <value>searchRelatedContent(settings.relatedSearchText,'person')</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model-options</name>
-      <type>Main</type>
-      <value>{ debounce: 450 }</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>settings.relatedSearchText</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty</value>
+      <value>fr-element fr-view</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>dir</name>
       <type>Main</type>
-      <value>Buscar personas...</value>
+      <value>auto</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-invalid</name>
+      <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cuerpo QA</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;personModal&quot;)/div[@class=&quot;modal-dialog wider&quot;]/div[@class=&quot;modal-content md-whiteframe-16dp&quot;]/div[@class=&quot;modal-body pt-0&quot;]/div[@class=&quot;search-group&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <value>id(&quot;body&quot;)/main[@id=&quot;content&quot;]/div[1]/div[@class=&quot;one-column-hover detail ng-scope&quot;]/div[@class=&quot;content-page wider-detail top-70px ng-scope&quot;]/div[@class=&quot;row mx-30px&quot;]/form[@class=&quot;col-12 ng-valid ng-valid-maxlength ng-valid-max-tags ng-valid-min-tags ng-valid-leftover-text ng-dirty ng-valid-parse&quot;]/div[@class=&quot;row align-items-start&quot;]/div[@id=&quot;content&quot;]/div[@class=&quot;form-group mt-3 row mx-0 align-items-start border-bottom-title pb-4&quot;]/div[@class=&quot;col-6 pl-0&quot;]/div[1]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper&quot;]/div[@class=&quot;fr-element fr-view&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//input[@type='text'])[9]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='personModal']/div/div/div[2]/div/div/input</value>
+      <value>//div[@id='content']/div[6]/div/div/div/div[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relacionar personas'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Redo'])[2]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscando'])[5]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Undo'])[2]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Espera un momento'])[5]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type something'])[2]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by'])[2]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div/div/div[2]/div/div/input</value>
+      <value>//div[6]/div/div/div/div[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

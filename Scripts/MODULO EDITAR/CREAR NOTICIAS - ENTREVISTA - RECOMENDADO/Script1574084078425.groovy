@@ -145,6 +145,28 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
 
 WebUI.delay(1)
 
+// INICIO AGREGAR FUENTE CONTENIDO
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar fuentes_Contenido'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/a_Agregar URL_Company'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_URL_resource-url'), 'https://www.bnamericas.com')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/textarea_Descripcin_text'), 'Descripcion')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'),0)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'))
+// FIN AGREGAR FUENTE CONTENIDO
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Proyectos'))
 
 WebUI.delay(1)
@@ -196,8 +218,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), 
     'gas')
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'), 
-    'gas')
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'),'gas')
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Tarifas de gas natural residencial en Colombia_control__indicator'))
 

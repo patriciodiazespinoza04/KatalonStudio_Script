@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(//button[@type='button'])[86]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-icon btn__blue--border btn-md d-block' and @type = 'button' and @ng-click = concat('changeLastContentTypeFound(' , &quot;'&quot; , 'dataset' , &quot;'&quot; , ',settings,contentScroller)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +24,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -48,14 +52,14 @@
       <value>#datasetModal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
       <value>changeLastContentTypeFound('dataset',settings,contentScroller)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

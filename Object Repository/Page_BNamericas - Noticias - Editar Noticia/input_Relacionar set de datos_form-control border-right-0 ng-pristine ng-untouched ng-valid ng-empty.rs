@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(//input[@type='text'])[8]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ng-change = concat('searchRelatedContent(settings.relatedSearchText,' , &quot;'&quot; , 'dataset' , &quot;'&quot; , ')')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,14 +24,14 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-change</name>
       <type>Main</type>
@@ -55,7 +59,7 @@
       <value>form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
