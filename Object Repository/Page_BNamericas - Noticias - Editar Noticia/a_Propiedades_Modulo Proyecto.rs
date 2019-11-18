@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Propiedades_1</name>
+   <name>a_Propiedades_Modulo Proyecto</name>
    <tag></tag>
    <elementGuidId>b01f497d-a91c-4ee0-8dab-435dbd8b1b3a</elementGuidId>
    <selectorCollection>
@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//main[@id='content']/div/div[2]/div/div[2]/div/div/nav/div[3]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ng-click = 'contentConfigurationService.setTab(4)']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,14 +24,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>contentConfigurationService.setTab(3)</value>
+      <value>contentConfigurationService.setTab(4)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

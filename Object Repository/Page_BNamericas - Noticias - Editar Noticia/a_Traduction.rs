@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Traducir a Espaol</name>
+   <name>a_Traduction</name>
    <tag></tag>
-   <elementGuidId>6d61e6a1-4fac-40fe-a47d-571c48bbde3a</elementGuidId>
+   <elementGuidId>8ac8df0d-ae1c-4814-ac6c-d4475d84956b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='translation']/div/div[4]/button</value>
+         <value>//main[@id='content']/div/div[2]/div/div[2]/div/div/nav/div[4]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ng-disabled = '!enableTranslation(language.name)' and @ng-click = 'translate(language.name)']</value>
+         <value>//*[@ng-click = 'contentConfigurationService.setTab(6)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,79 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary ng-binding</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-disabled</name>
-      <type>Main</type>
-      <value>!enableTranslation(language.name)</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>translate(language.name)</value>
+      <value>contentConfigurationService.setTab(6)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                
-                Traducir a Español
-            </value>
+      <value>Traducción</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;translation&quot;)/div[@class=&quot;row border-bottom-title pb-4 mt-4 mx-0&quot;]/div[@class=&quot;col ng-scope&quot;]/button[@class=&quot;btn btn-primary ng-binding&quot;]</value>
+      <value>id(&quot;body&quot;)/main[@id=&quot;content&quot;]/div[1]/div[@class=&quot;one-column-hover outline-none ng-scope&quot;]/div[@class=&quot;detail ng-scope&quot;]/div[@class=&quot;content-page wider-detail top-70px ng-scope&quot;]/div[@class=&quot;border-bottom-nav&quot;]/div[@class=&quot;row mx-30px&quot;]/nav[@class=&quot;nav nav-pills col-12&quot;]/div[@class=&quot;d-inline-block nav-item custom-tab&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='translation']/div/div[4]/button</value>
+      <value>//main[@id='content']/div/div[2]/div/div[2]/div/div/nav/div[4]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Traducción')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Idioma original: Español'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Propiedades'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Título'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contenido relacionado y temas'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Titulo Noticias Automatizacion 37768'])[3]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar archivo como fuente'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adjuntar archivo:'])[1]/preceding::a[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[30]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div[4]/button</value>
+      <value>//div[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>

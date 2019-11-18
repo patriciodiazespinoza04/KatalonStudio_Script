@@ -23,11 +23,11 @@ mydate = new Date()
 
 formattedDate_Inicio = mydate.format('dd/MM/yyyy')
 
-use(TimeCategory, { 
-        today = new Date()
+use(TimeCategory, {
+		today = new Date()
 
-        NextYear = (today + 2.year)
-    })
+		NextYear = (today + 2.year)
+	})
 
 formattedDate_Fin = NextYear.format('dd/MM/yyyy')
 
@@ -56,12 +56,12 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/Proyect
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/a_Nuevo Proyecto'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Idioma'), 
-    'string:es', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Idioma'),
+	'string:es', true)
 
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas/Proyecto_PRA'))
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Proyecto_title'), 'Titulo Proyecto Automatizacion ' + 
-    RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Proyecto_title'), 'Titulo Proyecto Automatizacion ' +
+	RandomStringUtils.randomNumeric(5))
 
 WebUI.delay(2)
 
@@ -77,8 +77,8 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/textarea_Descripcin_text'), 'Descripcion')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'),
+	0)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'))
 
@@ -86,16 +86,16 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_Prueba de Froala automatizada'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Resumen de Froala automatizada'), 
-    'Resumen de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Resumen de Froala automatizada'),
+	'Resumen de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Estado del Proyecto'), 
-    'string:ACTIVE', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Estado del Proyecto'),
+	'string:ACTIVE', true)
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Tipo de Propiedad'), 
-    'string:PRIVATE', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Tipo de Propiedad'),
+	'string:PRIVATE', true)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/i_Guardar y enviar_fas fa-save'))
 
@@ -110,8 +110,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Etapa'), 
-    'string:TENDERING', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Etapa'),
+	'string:TENDERING', true)
 
 WebUI.delay(1)
 
@@ -140,8 +140,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), 
-    'minera')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),
+	'minera')
 
 WebUI.delay(1)
 
@@ -184,36 +184,18 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Boton_Relacionar_Company_Proyecto'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/span_Relacionar compaa'))
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Compaa del entrevistado                                                                            Noticia relacionada a una Compaa'), 
-    'string:ARTICLE_COMPANY_INTERVIEWED', true)
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/a_Rol_dropdownMenuButton-0'))
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/a_Rol_dropdownMenuButton-0'))
 
 WebUI.delay(1)
 
-// INICIO AGREGAR FUENTE CONTENIDO
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar fuentes_Contenido'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/div_-_control__indicator custom_control_indicator'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/a_Agregar URL_Company'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_URL_resource-url'), 'https://www.bnamericas.com')
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/textarea_Descripcin_text'), 'Descripcion')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'))
-
-// FIN AGREGAR FUENTE CONTENIDO
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Temas'))
@@ -234,8 +216,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'), 
-    'chu')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'),
+	'chu')
 
 WebUI.delay(3)
 
@@ -259,8 +241,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar reportes_form'), 
-    'mineria')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar reportes_form'),
+	'mineria')
 
 WebUI.delay(1)
 
@@ -278,8 +260,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Relacionar set de datos'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), 
-    'gas')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),
+	'gas')
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Tarifas de gas natural residencial en Colombia_control__indicator'))
 
@@ -295,8 +277,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), 
-    'rogelio sanchez martinez')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),
+	'rogelio sanchez martinez')
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Rogelio Snchez Martnez_control__indicator'))
 
@@ -304,12 +286,12 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Persona_Tipo de Relacion'), 
-    'string:ARTICLE_INTERVIEWED', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Persona_Tipo de Relacion_Cargo'),
+	'string:PROJECT_POSITION_IT', true)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Propiedades'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Propiedades_Modulo Proyecto'))
 
 WebUI.delay(1)
 
@@ -325,23 +307,16 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Aguas y Residuos_control__indicator'))
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Banca_control__indicator'))
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'),
+	formattedDate_Inicio)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_TIC_control__indicator'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'),'string:ANNUAL', true)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Seguros_control__indicator'))
-
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'), 
-    formattedDate_Inicio)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'), 
-    'string:ANNUAL', true)
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/label_Recomendado_onoffswitch-label'))
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/label_Recomendado_onoffswitch-label'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduccin'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduction'))
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Traducir a Espaol'))
 
@@ -352,4 +327,3 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 WebUI.delay(5)
 
 WebUI.closeBrowser()
-
