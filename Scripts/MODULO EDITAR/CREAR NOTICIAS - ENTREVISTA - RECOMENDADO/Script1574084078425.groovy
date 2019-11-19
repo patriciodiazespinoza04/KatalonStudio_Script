@@ -18,6 +18,9 @@ import java.util.Date as Date
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.Keys as Keys
 import groovy.time.TimeCategory as TimeCategory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 //***********************************************************************
 mydate = new Date()
@@ -324,6 +327,16 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Edi
     formattedDate_Inicio)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'),'string:ANNUAL', true)
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/input_Zona geogrfica_input ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'),
+	'Chile')
+
+WebUI.delay(1)
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/input_Zona geogrfica_input ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'),
+	Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/label_Recomendado_onoffswitch-label'))
 

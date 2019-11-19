@@ -16,8 +16,10 @@ import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
-import org.openqa.selenium.Keys as Keys
 import groovy.time.TimeCategory as TimeCategory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 //***********************************************************************
 mydate = new Date()
@@ -329,8 +331,6 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Edi
 	formattedDate_Inicio)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'),'string:ANNUAL', true)
-
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/label_Recomendado_onoffswitch-label'))
 
 WebUI.delay(1)
 

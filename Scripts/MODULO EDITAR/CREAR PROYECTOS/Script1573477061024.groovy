@@ -17,6 +17,9 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import groovy.time.TimeCategory as TimeCategory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 //***********************************************************************
 mydate = new Date()
@@ -95,6 +98,74 @@ WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Tipo de Propiedad'),
 	'string:PRIVATE', true)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Actualizar_Capex'))
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas/Capex_Tipo_Moneda'), 'string:USD', true)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas/Capex_Inversion'), '58000')
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Capex_Fecha_Anuncio'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Capex_Aceptar'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Cancelar'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Actualizar_Fecha_Termino'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Fecha_Termino_PRA'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Fecha_Anuncio_PRA'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Fecha_Termino_Aceptar'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/button_Cancelar'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/div_Regin pas o localidad'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/input_Zona geogrfica_input ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'),
+	'Chile')
+
+WebUI.delay(1)
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/input_Zona geogrfica_input ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'),
+	Keys.chord(Keys.ENTER))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/i_Guardar y enviar_fas fa-save'))
 
