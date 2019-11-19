@@ -28,4 +28,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/MODULO EDITAR/CREAR PROYECTOS</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fa26884e-89fc-4638-b809-f05253d16757</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR PROYECTOS - PRA</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9e4d3eb-ec52-4dd9-954c-3f8c99bd536d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR HITOS</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68c7d5f4-5dc2-49ad-b433-17261e3aa433</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR HITOS - ESTANDAR</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
