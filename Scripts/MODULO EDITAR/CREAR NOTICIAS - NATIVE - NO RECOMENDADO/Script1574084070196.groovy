@@ -336,7 +336,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduccin'))
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Traducir a Espaol'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Traducir a Ingles'))
 
 WebUI.delay(1)
 

@@ -50,7 +50,7 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Page_BNamericas/i_Cargando_fal fa-marker'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/Proyectos'))
 
@@ -61,20 +61,20 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/Proyecto_PRA'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Proyecto_title'), 'Titulo Proyecto Automatizacion ' +
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Proyecto_title'), 'Titulo Proyecto PRA Automatizacion ' +
 	RandomStringUtils.randomNumeric(5))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar fuentes'))
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Agregar_URL'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_URL_resource-url'), 'https://www.bnamericas.com')
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/textarea_Descripcin_text'), 'Descripcion')
 
@@ -83,7 +83,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - N
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_Prueba de Froala automatizada'))
 
@@ -97,6 +97,90 @@ WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona Tipo de Propiedad'),
 	'string:PRIVATE', true)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Actualizar_Capex'))
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas/Capex_Tipo_Moneda'), 'string:USD', true)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas/Capex_Inversion'), '58000')
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Capex_Fecha_Anuncio'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Capex_Aceptar'))
+
+WebUI.delay(1)
+
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas/div_Cancelar                                                                Actualizar'))
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Cancelar'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Fecha_Inicio_PRA'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Actualizar_Fecha_Termino'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Fecha_Termino_PRA'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Fecha_Anuncio_PRA'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Fecha_Termino_Aceptar'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/button_Cancelar'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/div_Regin pas o localidad'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/input_Zona geogrfica_input ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'), 'Chile')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/em_Chile'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/p_Texto trabajo principal'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/div_Texto trabajo principal'), 'Texto trabajo principal')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/i_Guardar y enviar_fas fa-save'))
 
@@ -311,10 +395,10 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'),
 	formattedDate_Inicio)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'),'string:ANNUAL', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'),
+	'string:ANNUAL', true)
 
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/label_Recomendado_onoffswitch-label'))
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduction'))

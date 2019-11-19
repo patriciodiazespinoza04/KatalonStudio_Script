@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Traducir a Espaol</name>
+   <name>button_Traducir a Ingles</name>
    <tag></tag>
-   <elementGuidId>6d61e6a1-4fac-40fe-a47d-571c48bbde3a</elementGuidId>
+   <elementGuidId>d42356ef-ad18-44d6-bca1-ca996a3a96f7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ng-disabled = '!enableTranslation(language.name)' and @ng-click = 'translate(language.name)']</value>
+         <value>//*[@ng-click = 'translate(language.name)' and (text() = '
+                
+                Traducir a Inglés
+            ' or . = '
+                
+                Traducir a Inglés
+            ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -31,7 +37,7 @@
       <value>btn btn-primary ng-binding</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-disabled</name>
       <type>Main</type>
@@ -45,13 +51,13 @@
       <value>translate(language.name)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
                 
-                Traducir a Español
+                Traducir a Inglés
             </value>
    </webElementProperties>
    <webElementProperties>
