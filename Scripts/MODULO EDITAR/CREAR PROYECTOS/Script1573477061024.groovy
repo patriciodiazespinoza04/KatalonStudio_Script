@@ -274,6 +274,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Edita
 WebUI.delay(1)
 
 // AGREGAR DETALLE DEL ROL
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/Agregar_Detalle_Rol'))
 
 WebUI.delay(1)
@@ -282,7 +283,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas/label_Detalle del 
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/p'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas/div_Detalle'), 'Detalle del Rol')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas/div_Detalle del Rol QA'), 'Detalle del Rol QA')
 
 WebUI.delay(1)
 
@@ -293,6 +294,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Guardar'))
 
 // FIN AGREGAR DETALLE
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Temas'))
