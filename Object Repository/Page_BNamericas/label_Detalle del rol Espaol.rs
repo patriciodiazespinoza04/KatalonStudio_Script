@@ -6,11 +6,15 @@
    <elementGuidId>70c72c34-6ec7-42ef-bb30-e79bfc0d3639</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;modalRolexab3dddox-company-test-ofg-principal0&quot;)/div[@class=&quot;modal-dialog wider&quot;]/div[@class=&quot;modal-content md-whiteframe-16dp&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group-custom mb-4&quot;]/label[@class=&quot;ng-binding&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='modalRolexab3dddox-company-test-ofg-principal0']/div/div/div[2]/div[2]/div/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <value>ng-binding</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -43,7 +47,7 @@
                         </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -107,8 +107,14 @@ WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas/Capex_Tipo_Moneda'), 'string:USD', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas/Capex_Inversion'), '58000')
+//**************************************
+Random rnd = new Random()
 
+randomNumber = (100000 + rnd.nextInt(999999))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas/Capex_Inversion'), String.valueOf(randomNumber))
+
+//**************************************
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/Capex_Fecha_Anuncio'))
 
 WebUI.delay(1)
@@ -274,16 +280,19 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/label_Detalle del rol Espaol'))
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas/div_Detalle del Rol en Spanish'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/p'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas/div_Detalle del Rol en Spanish'), 'Detalle del Rol en Spanish')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas/div_Detalle'), 'Detalle del Rol')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Traducir al                        Ingls'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Guardar'))
 
 // FIN AGREGAR DETALLE
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Temas'))
@@ -398,10 +407,10 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'),
 	formattedDate_Inicio)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'),'string:ANNUAL', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'),
+	'string:ANNUAL', true)
 
 //WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/label_Recomendado_onoffswitch-label'))
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduction'))
