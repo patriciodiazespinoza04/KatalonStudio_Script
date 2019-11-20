@@ -298,11 +298,11 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas/p'))
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas/div_Detalle del Rol QA'), 'Detalle del Rol QA')
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Traducir al                        Ingls'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Guardar'))
 

@@ -6,11 +6,15 @@
    <elementGuidId>9c89158a-2470-4bc5-ba6e-4a5573ef2349</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;modalRolexab3dddox-company-test-ofg-principal0&quot;)/div[@class=&quot;modal-dialog wider&quot;]/div[@class=&quot;modal-content md-whiteframe-16dp&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;ng-scope&quot;]/button[@class=&quot;btn btn__blue--border mb-3 mt-1 ng-binding&quot;][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[85]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +52,7 @@
       <value>vm.translate()</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -59,7 +63,7 @@
                     </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
