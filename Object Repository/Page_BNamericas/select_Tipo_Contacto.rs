@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ZG_Chile</name>
+   <name>select_Tipo_Contacto</name>
    <tag></tag>
-   <elementGuidId>0bb6442a-c52a-4587-9c33-1ceedf6c6405</elementGuidId>
+   <elementGuidId>527e5d59-0c33-419b-9013-bc6dd23eaa32</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ng-model = 'newTag.text' and @placeholder = 'Región, país o localidad']</value>
+         <value>//*[@ng-model = 'contactInfo.contactInfoType' and @ng-change = 'onChangeContactInfoType($index)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>newTag.text</value>
+      <value>contactInfo.contactInfoType</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>ng-change</name>
       <type>Main</type>
-      <value>Región, país o localidad</value>
+      <value>onChangeContactInfoType($index)</value>
    </webElementProperties>
 </WebElementEntity>

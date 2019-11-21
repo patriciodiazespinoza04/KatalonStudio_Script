@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ZG_Chile</name>
+   <name>Guardar_Borrador</name>
    <tag></tag>
-   <elementGuidId>0bb6442a-c52a-4587-9c33-1ceedf6c6405</elementGuidId>
+   <elementGuidId>20e61879-9972-42c9-a8b2-f9fec4f4ae32</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ng-model = 'newTag.text' and @placeholder = 'Región, país o localidad']</value>
+         <value>//*[@class = 'fas fa-save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
+      <name>class</name>
       <type>Main</type>
-      <value>newTag.text</value>
+      <value>fas fa-save</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>Región, país o localidad</value>
+      <value>saveDraft('Borrador guardado')</value>
    </webElementProperties>
 </WebElementEntity>

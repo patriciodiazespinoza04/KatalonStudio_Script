@@ -63,15 +63,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/a_Nuevo
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/select_Selecciona uno                                    Ingls                                    Espaol'), 
     'string:es', true)
 
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Noticia_control__indicator d-inline-block p-relative mr-2'))
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Entrevista_control__indicator d-inline-block p-relative mr-2'))
 
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Opinin_control__indicator d-inline-block p-relative mr-2'))
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Anlisis_control__indicator d-inline-block p-relative mr-2'))
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Reportaje_control__indicator d-inline-block p-relative mr-2'))
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Comunicado de Prensa_control__indicator d-inline-block p-relative mr-2'))
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Columnista Invitado_control__indicator d-inline-block p-relative mr-2'))
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Native_control__indicator d-inline-block p-relative mr-2'))
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/input_Ttulo _title'), 'Titulo Noticias Automatizacion ' + 
     RandomStringUtils.randomNumeric(5))
 
@@ -91,7 +84,6 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/textarea_Descripcin_text'), 'Descripcion')
 
-//WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'), 
     0)
 
@@ -220,8 +212,6 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), 
     'gas')
-
-//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'),'gas')
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Tarifas de gas natural residencial en Colombia_control__indicator'))
 

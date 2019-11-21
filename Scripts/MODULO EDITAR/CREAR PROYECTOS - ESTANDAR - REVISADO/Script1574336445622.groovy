@@ -115,6 +115,7 @@ randomNumber = (100000 + rnd.nextInt(999999))
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas/Capex_Inversion'), String.valueOf(randomNumber))
 
 //**************************************
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/Capex_Fecha_Anuncio'))
 
 WebUI.delay(1)
@@ -400,13 +401,18 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Aguas y Residuos_control__indicator'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'),
-	formattedDate_Inicio)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'),
-	'string:ANNUAL', true)
+	'string:QUARTERLY', true)
 
 WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/label_Proyecto Estandar'))
+
+WebUI.delay(1)
+
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/label_Proyecto Revisado'))
+
+//WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduction'))
 

@@ -109,7 +109,14 @@ WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas/Capex_Tipo_Moneda'), 'string:USD', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas/Capex_Inversion'), '58000')
+//**************************************
+Random rnd = new Random()
+ 
+randomNumber = (100000 + rnd.nextInt(999999))
+ 
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas/Capex_Inversion'), String.valueOf(randomNumber))
+ 
+//**************************************
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/Capex_Fecha_Anuncio'))
 
@@ -432,4 +439,3 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 WebUI.delay(5)
 
 WebUI.closeBrowser()
-

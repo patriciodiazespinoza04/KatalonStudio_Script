@@ -46,4 +46,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/MODULO EDITAR/CREAR HITOS - ESTANDAR</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>338d124d-5cda-47c9-8762-ac43ba69dd74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR PROYECTOS - ESTANDAR - REVISADO</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

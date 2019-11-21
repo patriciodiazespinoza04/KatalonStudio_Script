@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ZG_Chile</name>
+   <name>label_Proyecto Revisado</name>
    <tag></tag>
-   <elementGuidId>0bb6442a-c52a-4587-9c33-1ceedf6c6405</elementGuidId>
+   <elementGuidId>e0fef1bf-9345-4f16-9d6f-cd40263cc55b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ng-model = 'newTag.text' and @placeholder = 'Región, país o localidad']</value>
+         <value>//*[@class = 'onoffswitch-label' and @for = 'inReview']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
+      <name>class</name>
       <type>Main</type>
-      <value>newTag.text</value>
+      <value>onoffswitch-label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>for</name>
       <type>Main</type>
-      <value>Región, país o localidad</value>
+      <value>inReview</value>
    </webElementProperties>
 </WebElementEntity>

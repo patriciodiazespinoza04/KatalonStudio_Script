@@ -142,12 +142,6 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Relacionar noticia                                                Relacionar 1 noticias'))
 
-/*
-WebUI.delay(1)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Noticias_Tipo de Relacion'),
-	'string:ARTICLE_TIMELINE', true)
-*/
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Hitos'))
@@ -176,7 +170,6 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nue
 
 WebUI.delay(3)
 
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Check_Button_Company'))
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Company test OFG Principal_control__indicator'))
 
 WebUI.delay(1)
@@ -272,8 +265,6 @@ WebUI.delay(1)
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'), 
     'string:ANNUAL', true)
 
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/label_Perfil Estandar'))
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/a_Traduccion'))
@@ -289,4 +280,3 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 WebUI.delay(5)
 
 WebUI.closeBrowser()
-

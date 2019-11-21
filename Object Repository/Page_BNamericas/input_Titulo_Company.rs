@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ZG_Chile</name>
+   <name>input_Titulo_Company</name>
    <tag></tag>
-   <elementGuidId>0bb6442a-c52a-4587-9c33-1ceedf6c6405</elementGuidId>
+   <elementGuidId>6b09ec92-90a5-4f44-a2f9-e3d4090d6b84</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ng-model = 'newTag.text' and @placeholder = 'Región, país o localidad']</value>
+         <value>//*[@ng-model = 'contentForm.title' and @name = 'companyname']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>newTag.text</value>
+      <value>contentForm.title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Región, país o localidad</value>
+      <value>companyname</value>
    </webElementProperties>
 </WebElementEntity>
