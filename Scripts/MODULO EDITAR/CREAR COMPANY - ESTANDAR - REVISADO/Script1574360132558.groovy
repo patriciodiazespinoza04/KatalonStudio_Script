@@ -169,17 +169,13 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
 
 WebUI.delay(1)
 
-/*
 // INICIO AGREGAR FUENTE CONTENIDO
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/button_Agregar fuentes'))
 
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar fuentes_Contenido'))
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Agregar Fuente'))
-
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/a_Agregar URL_Company'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/a_Agregar URL'))
 
 WebUI.delay(2)
 
@@ -195,7 +191,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - N
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'))
 
 // FIN AGREGAR FUENTE CONTENIDO
-*/
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Personas'))
@@ -375,9 +371,15 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduccin'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/label_Company Estandar'))
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Traducir a Ingles'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/a_Traduccion'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Company_Traducir a Ingles'))
 
 WebUI.delay(1)
 

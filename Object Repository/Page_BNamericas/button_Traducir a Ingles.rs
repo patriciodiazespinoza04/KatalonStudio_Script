@@ -6,10 +6,6 @@
    <elementGuidId>730303a2-4d80-4a13-950e-59d9500f41f3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='translation']/div/div[4]/button</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@ng-click = 'translate(language.name)' and (text() = '
                     Traducir al 
@@ -18,6 +14,10 @@
                     Traducir al 
                     Inglés
                 ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='translation']/div/div[4]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

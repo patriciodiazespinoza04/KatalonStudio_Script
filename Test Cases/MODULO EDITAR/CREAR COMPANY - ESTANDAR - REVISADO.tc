@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CREAR COMPANY</name>
+   <name>CREAR COMPANY - ESTANDAR - REVISADO</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d86dd99d-993b-426f-9844-e98d2d2f5cf2</testCaseGuid>
+   <testCaseGuid>9727dbc6-4113-4eef-8f59-a9e6b0c85c0e</testCaseGuid>
 </TestCaseEntity>

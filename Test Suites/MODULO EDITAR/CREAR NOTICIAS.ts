@@ -35,6 +35,12 @@
       <testCaseId>Test Cases/MODULO EDITAR/CREAR PROYECTOS - PRA</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>338d124d-5cda-47c9-8762-ac43ba69dd74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR PROYECTOS - ESTANDAR - REVISADO</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e9e4d3eb-ec52-4dd9-954c-3f8c99bd536d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -47,9 +53,15 @@
       <testCaseId>Test Cases/MODULO EDITAR/CREAR HITOS - ESTANDAR</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>338d124d-5cda-47c9-8762-ac43ba69dd74</guid>
+      <guid>bdf8ac7f-002a-4356-844b-ad2efa8361a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MODULO EDITAR/CREAR PROYECTOS - ESTANDAR - REVISADO</testCaseId>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR COMPANY</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>836d92ef-d844-45b3-bd34-ae5dd03335b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR COMPANY - ESTANDAR - REVISADO</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

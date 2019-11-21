@@ -7,13 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '
-        
+         <value>id(&quot;tab-companies&quot;)/ul[@class=&quot;list-unstyled mt-2 pt-2 ng-scope&quot;]/li[@class=&quot;row align-items-start container-related-content__item md-whiteframe-1dp ng-scope&quot;]/div[@class=&quot;col-12 col-xl-6 pl-0 pr-xl-0&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;mr-3&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn__grey--border btn-md mr-2 btn-icon&quot;][count(. | //*[(text() = '
         Agregar fuentes
     ' or . = '
-        
         Agregar fuentes
-    ')]</value>
+    ')]) = count(//*[(text() = '
+        Agregar fuentes
+    ' or . = '
+        Agregar fuentes
+    ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -37,7 +39,7 @@
       <value>btn btn__grey--border btn-md mr-2 btn-icon</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -70,12 +72,11 @@
       <name>text</name>
       <type>Main</type>
       <value>
-        
         Agregar fuentes
     </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
