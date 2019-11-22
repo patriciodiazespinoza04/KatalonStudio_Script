@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Cargar_Archivo</name>
+   <name>Eje_Y</name>
    <tag></tag>
-   <elementGuidId>9dcf48f6-613f-4c0e-a14e-54eb2d0077e2</elementGuidId>
+   <elementGuidId>06057e27-871d-439f-ad9a-434b007331d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'input_table']</value>
+         <value>//*[@id = 'select-yAxis']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>input_table</value>
+      <value>select-yAxis</value>
    </webElementProperties>
 </WebElementEntity>

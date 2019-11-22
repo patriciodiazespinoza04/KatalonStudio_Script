@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Cargar_Archivo</name>
+   <name>button_Agregar_Condicion</name>
    <tag></tag>
-   <elementGuidId>9dcf48f6-613f-4c0e-a14e-54eb2d0077e2</elementGuidId>
+   <elementGuidId>2b395e7f-4116-4978-81d2-7820b2bc47ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'input_table']</value>
+         <value>//*[@ng-click = 'seriesPanel.addCondition()']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>input_table</value>
+      <value>seriesPanel.addCondition()</value>
    </webElementProperties>
 </WebElementEntity>
