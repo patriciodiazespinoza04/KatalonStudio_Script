@@ -91,7 +91,11 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Resumen de Froala automatizada'), 
     'Descripcion corta de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias/Fecha_Del_Hito'), formattedDate_Inicio)
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/Fecha_Del_Hito'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
 
 WebUI.delay(1)
 
@@ -257,8 +261,13 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Aguas y Residuos_control__indicator'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'), 
-    formattedDate_Inicio)
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
 
 WebUI.delay(1)
 

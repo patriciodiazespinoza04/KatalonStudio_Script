@@ -211,11 +211,19 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Calendario_Inicio'), formattedDate_Inicio)
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Calendario_Inicio'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Calendario_Termino'), formattedDate_Fin)
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Calendario_Termino'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
 
 WebUI.delay(1)
 
@@ -420,8 +428,9 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Aguas y Residuos_control__indicator'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'), 
-    formattedDate_Inicio)
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Fecha de publicacin_form-control w-260px mt-3 ng-pristine ng-untouched ng-valid ng-empty'))
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas/Dia_Actual'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'), 
     'string:ANNUAL', true)
