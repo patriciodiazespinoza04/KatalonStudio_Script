@@ -166,10 +166,6 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Noticias_Tipo de Relacion'),'string:ARTICLE_TIMELINE', true)
-
-//WebUI.delay(1)
-
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Proyectos'))
 
 WebUI.delay(1)
@@ -313,9 +309,13 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/span_'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/span_'))
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/div_Temas'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_-_control__indicator custom_control_indicator'))
+
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/span_'))
+
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/div_Temas'))
 
 WebUI.delay(1)
 
