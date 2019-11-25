@@ -284,6 +284,6 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Boton_Publicar'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.closeBrowser()

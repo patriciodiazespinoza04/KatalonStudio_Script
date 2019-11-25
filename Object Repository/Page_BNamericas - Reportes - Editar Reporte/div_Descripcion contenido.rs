@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Descripcion QA</name>
+   <name>div_Descripcion contenido</name>
    <tag></tag>
-   <elementGuidId>e1446f13-b93e-4df4-96aa-92c6b0e03b4c</elementGuidId>
+   <elementGuidId>fe7ad46a-139a-4975-9a2e-19fd455d34e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'fr-element fr-view' and @spellcheck = 'true' and (text() = 'Type something' or . = 'Type something')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='dataView-1574450162347']/div/div[2]/div/div[3]/div</value>
+         <value>//div[@id='content']/div/div[2]/div/div/div/div/div/div[2]/div[3]/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,7 +41,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>spellcheck</name>
       <type>Main</type>
@@ -63,21 +59,21 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Type something</value>
+      <value>Descripcion contenido</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dataView-1574450162347&quot;)/div[@class=&quot;col pl-2&quot;]/div[@class=&quot;form-group mb-50px ng-scope&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper&quot;]/div[@class=&quot;fr-element fr-view&quot;]</value>
+      <value>id(&quot;body&quot;)/main[@id=&quot;content&quot;]/div[1]/div[@class=&quot;one-column-hover ng-scope&quot;]/div[@class=&quot;detail ng-scope&quot;]/div[@class=&quot;content-page wider-detail top-70px ng-scope&quot;]/div[@class=&quot;row mx-30px&quot;]/form[@class=&quot;col-12 ng-valid ng-valid-maxlength ng-valid-max-tags ng-valid-min-tags ng-valid-leftover-text ng-dirty ng-valid-parse&quot;]/div[@class=&quot;row align-items-start&quot;]/div[@id=&quot;content&quot;]/div[@class=&quot;mt-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8 align-self-start&quot;]/div[@class=&quot;mb-3&quot;]/div[1]/div[@class=&quot;border rounded p-2 mb-3 ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper&quot;]/div[@class=&quot;fr-element fr-view&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dataView-1574450162347']/div/div[2]/div/div[3]/div</value>
+      <value>//div[@id='content']/div/div[2]/div/div/div/div/div/div[2]/div[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +108,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[3]/div</value>
+      <value>//form/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

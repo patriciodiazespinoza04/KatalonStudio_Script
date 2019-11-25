@@ -6,11 +6,15 @@
    <elementGuidId>c1b7b895-328c-4595-8e5c-475061f23483</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mCSB_1_container&quot;)/div[@class=&quot;ng-isolate-scope&quot;]/ul[@class=&quot;ivh-treeview&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/div[1]/ul[@class=&quot;ivh-treeview ng-scope&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope ivh-treeview-node-collapsed&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/span[@class=&quot;ivh-treeview-checkbox-wrapper ng-scope&quot;]/span[@class=&quot;ng-isolate-scope&quot;]/label[@class=&quot;control color-gray control--checkbox pl-3&quot;]/div[@class=&quot;control__indicator custom_control_indicator&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='mCSB_1_container']/div/ul/li/div/div/ul/li[3]/div/span[2]/span/label/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

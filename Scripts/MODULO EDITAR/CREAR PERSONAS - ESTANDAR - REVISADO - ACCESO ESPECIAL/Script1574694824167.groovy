@@ -55,13 +55,13 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas/i_Cargando_fal fa-
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/Company'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/Personas'))
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias/a_Nuevo Company'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/a_Nuevo Personas'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas/select_Idioma'), 'string:es', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Personas/select_Idioma'), 'string:es', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas/input_Titulo_Company'), 'Titulo Compañia Automatizacion ' + 
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Personas/input_Titulo_Personas'), 'Titulo Personas Automatizacion ' + 
     RandomStringUtils.randomNumeric(5))
 
 WebUI.delay(2)
@@ -87,14 +87,14 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas/input_Titulo_Comercial_Company'), 'Titulo Comercial de Compañia Automatizacion ' + 
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Personas/input_Titulo_Cargo_Actual'), 'Titulo Cargo Actual Automatizacion ' + 
     RandomStringUtils.randomNumeric(5))
 
 // DESCRIPCION DE COMPAÑIA
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/p_Prueba de Froala automatizada'))
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Resumen de Froala automatizada'), 
-    'Descripcion de la compañia de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
+    'Descripcion corta de personas de Froala automatizada ' + RandomStringUtils.randomNumeric(5))
 
 WebUI.delay(1)
 
@@ -165,17 +165,16 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Compaa del entrevistado                                                                            Noticia relacionada a una Compaa'), 
-    'string:COMPANY_SHAREHOLDER', true)
+    'string:COMPANY_POSITION_IT', true)
 
 WebUI.delay(1)
 
 // INICIO AGREGAR FUENTE CONTENIDO
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/button_Agregar fuentes'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/button_Agregar fuentes'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/a_Agregar URL'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/a_Agregar URL'))
 
 WebUI.delay(2)
 
@@ -185,38 +184,12 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/textarea_Descripcin_text'), 'Descripcion')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'),
-	0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/button_Agregar'))
 
 // FIN AGREGAR FUENTE CONTENIDO
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Personas'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Relacionar personas'))
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'))
-
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), 
-    'rogelio sanchez martinez')
-
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'), 
-    'rogelio sanchez martinez')
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Rogelio Snchez Martnez_control__indicator'))
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Relacionar persona                                                Relacionar 1 personas'))
-
-WebUI.delay(1)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Persona_Tipo de Relacion'), 
-    'string:COMPANY_POSITION_MANAGEMENT', true)
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Proyectos'))
@@ -240,13 +213,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/a_Rol_dropdownMenuButton-0'))
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/a_Rol_dropdownMenuButton-0'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/div_-_control__indicator custom_control_indicator'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Personas/select_Proyecto_Tipo Relacion'), 
+    'string:PROJECT_POSITION_GOVERNMENT', true)
 
 WebUI.delay(1)
 
@@ -279,8 +247,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Noticias_Tipo de Relacion'), 
-    'string:ARTICLE_COMPANY_INTERVIEWED', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Personas/select_Noticias_Tipo de Relacion'), 
+    'string:ARTICLE_AUTHOR', true)
 
 WebUI.delay(1)
 
@@ -302,6 +270,11 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/span_Relacionar reporte'))
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Personas/select_Reportes_Tipo de Relacion'), 
+    'string:REPORT_AUTHOR', true)
 
 WebUI.delay(1)
 
@@ -331,6 +304,26 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Edi
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Tarifas de gas natural residencial en Colombia_control__indicator'))
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/span_Relacionar set de datos'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Personas'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Relacionar personas'))
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), 
+    'rogelio sanchez martinez')
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'), 
+    'rogelio sanchez martinez')
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Rogelio Snchez Martnez_control__indicator'))
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Relacionar persona                                                Relacionar 1 personas'))
 
 WebUI.delay(1)
 
@@ -369,9 +362,15 @@ WebUI.delay(1)
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Periodo de Actualizacion'), 
     'string:ANNUAL', true)
 
+WebUI.scrollToPosition(100, 100)
+
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas/label_Company Estandar'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/label_Perfil Estandar'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/label_Acceso Especial'))
 
 WebUI.delay(1)
 
@@ -379,13 +378,12 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas/a_Traduccion'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Company_Traducir a Ingles'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/button_Personas_Traducir a Ingles'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Boton_Publicar'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/Boton_Publicar'))
 
 WebUI.delay(10)
 
 WebUI.closeBrowser()
-

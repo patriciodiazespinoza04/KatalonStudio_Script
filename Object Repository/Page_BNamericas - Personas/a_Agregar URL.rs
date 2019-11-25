@@ -1,117 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Descripcion QA</name>
+   <name>a_Agregar URL</name>
    <tag></tag>
-   <elementGuidId>e1446f13-b93e-4df4-96aa-92c6b0e03b4c</elementGuidId>
+   <elementGuidId>ce612d05-7aa6-4196-abb7-52f8e98cdef1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'fr-element fr-view' and @spellcheck = 'true' and (text() = 'Type something' or . = 'Type something')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='dataView-1574450162347']/div/div[2]/div/div[3]/div</value>
+         <value>//div[@id='tab-companies']/ul/li/div[2]/div/div[2]/div/div/a[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fr-element fr-view</value>
+      <value>dropdown-item px-3 py-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>dir</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>auto</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-disabled</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>spellcheck</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>contenteditable</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>toggleUrlReference('RELATED_COMPANIES',relatedCompany,true,true)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Type something</value>
+      <value>
+                    Agregar URL
+                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dataView-1574450162347&quot;)/div[@class=&quot;col pl-2&quot;]/div[@class=&quot;form-group mb-50px ng-scope&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper&quot;]/div[@class=&quot;fr-element fr-view&quot;]</value>
+      <value>id(&quot;tab-companies&quot;)/ul[@class=&quot;list-unstyled mt-2 pt-2 ng-scope&quot;]/li[@class=&quot;row align-items-start container-related-content__item md-whiteframe-1dp ng-scope&quot;]/div[@class=&quot;col-12 col-xl-6 pl-0 pr-xl-0&quot;]/div[@class=&quot;d-flex align-items-center mb-3&quot;]/div[@class=&quot;mr-3&quot;]/div[@class=&quot;btn-group show&quot;]/div[@class=&quot;dropdown-menu font-size-0875 py-3 show&quot;]/a[@class=&quot;dropdown-item px-3 py-1&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dataView-1574450162347']/div/div[2]/div/div[3]/div</value>
+      <value>//div[@id='tab-companies']/ul/li/div[2]/div/div[2]/div/div/a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Agregar URL')])[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Redo'])[2]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archivo'])[6]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Undo'])[2]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comentario'])[6]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type something'])[2]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by'])[2]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sin fuentes'])[5]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[3]/div</value>
+      <value>//div[2]/div/div[2]/div/div/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

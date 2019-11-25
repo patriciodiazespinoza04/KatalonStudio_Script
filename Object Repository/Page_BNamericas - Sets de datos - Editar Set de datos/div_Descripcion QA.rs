@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Descripcion QA</name>
    <tag></tag>
-   <elementGuidId>e1446f13-b93e-4df4-96aa-92c6b0e03b4c</elementGuidId>
+   <elementGuidId>514dbe96-9b94-40c2-bbc9-0e97bcc8596f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'fr-element fr-view' and @spellcheck = 'true' and (text() = 'Type something' or . = 'Type something')]</value>
+         <value>//div[@class = 'fr-element fr-view' and (text() = 'Descripcion QA' or . = 'Descripcion QA')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dataView-1574450162347']/div/div[2]/div/div[3]/div</value>
+         <value>//div[@id='dataView-1574686824966']/div/div[2]/div/div[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>spellcheck</name>
       <type>Main</type>
@@ -63,21 +63,21 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Type something</value>
+      <value>Descripcion QA</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dataView-1574450162347&quot;)/div[@class=&quot;col pl-2&quot;]/div[@class=&quot;form-group mb-50px ng-scope&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper&quot;]/div[@class=&quot;fr-element fr-view&quot;]</value>
+      <value>id(&quot;dataView-1574686824966&quot;)/div[@class=&quot;col pl-2&quot;]/div[@class=&quot;form-group mb-50px ng-scope&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper&quot;]/div[@class=&quot;fr-element fr-view&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dataView-1574450162347']/div/div[2]/div/div[3]/div</value>
+      <value>//div[@id='dataView-1574686824966']/div/div[2]/div/div[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
