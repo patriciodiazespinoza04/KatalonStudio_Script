@@ -309,13 +309,13 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/span_'))
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/span_'))
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_-_control__indicator custom_control_indicator'))
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_-_control__indicator custom_control_indicator'))
 
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/span_'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/span_'))
 
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/div_Temas'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/div_Temas'))
 
 WebUI.delay(1)
 
@@ -350,17 +350,17 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/input_Zona geogrfica_input ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'),
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Reportes/ZG_Chile'),
 	'Chile')
 
 WebUI.delay(1)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/input_Zona geogrfica_input ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse'),
+WebUI.sendKeys(findTestObject('Object Repository/Page_BNamericas - Reportes/ZG_Chile'),
 	Keys.chord(Keys.ENTER))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduccin'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/a_Traduccion'))
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Traducir a Ingles'))
 
