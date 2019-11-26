@@ -374,6 +374,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Personas/label_A
 
 WebUI.delay(1)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/a_Traduccion'))
 
 WebUI.delay(1)

@@ -366,6 +366,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
 
 WebUI.delay(1)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/a_Traduccion'))
 
 WebUI.delay(1)

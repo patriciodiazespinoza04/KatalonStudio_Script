@@ -267,7 +267,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'))
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'), 
-    'chu')
+    'michael chu')
 
 WebUI.delay(3)
 
@@ -334,6 +334,8 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nu
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/label_Recomendado_onoffswitch-label'))
 
 WebUI.delay(1)
+
+WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduccin'))
 
