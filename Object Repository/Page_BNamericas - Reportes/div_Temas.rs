@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'ivh-treeview-checkbox-wrapper ng-scope']</value>
+         <value>//*[@class = 'control__indicator custom_control_indicator']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ivh-treeview-checkbox-wrapper ng-scope</value>
+      <value>control__indicator custom_control_indicator</value>
    </webElementProperties>
 </WebElementEntity>
