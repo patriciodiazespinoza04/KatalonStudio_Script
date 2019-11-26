@@ -77,6 +77,12 @@
       <testCaseId>Test Cases/MODULO EDITAR/CREAR PERSONAS</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>7d43c1ee-fbdd-4997-8077-383c460d1226</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MODULO EDITAR/CREAR REPORTES</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>3e63be24-9dba-495d-8bf6-59f16b932ad9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

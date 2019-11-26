@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;mCSB_1_container&quot;)/div[@class=&quot;ng-isolate-scope&quot;]/ul[@class=&quot;ivh-treeview&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/div[1]/ul[@class=&quot;ivh-treeview ng-scope&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope ivh-treeview-node-collapsed&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/span[@class=&quot;ivh-treeview-checkbox-wrapper ng-scope&quot;]/span[@class=&quot;ng-isolate-scope&quot;]/label[@class=&quot;control color-gray control--checkbox pl-3&quot;]/div[@class=&quot;control__indicator custom_control_indicator&quot;]</value>
+         <value>//*[@class = 'ivh-treeview-checkbox-wrapper ng-scope']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -24,18 +24,34 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>control__indicator custom_control_indicator</value>
+      <value>ivh-treeview-checkbox-wrapper ng-scope</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mCSB_1_container&quot;)/div[@class=&quot;ng-isolate-scope&quot;]/ul[@class=&quot;ivh-treeview&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/div[1]/ul[@class=&quot;ivh-treeview ng-scope&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope ivh-treeview-node-collapsed&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/span[@class=&quot;ivh-treeview-checkbox-wrapper ng-scope&quot;]/span[@class=&quot;ng-isolate-scope&quot;]/label[@class=&quot;control color-gray control--checkbox pl-3&quot;]/div[@class=&quot;control__indicator custom_control_indicator&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Eficiencia de agua industrial
+</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ivh-treeview-checkbox-helper</name>
+      <type>Main</type>
+      <value>node</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
