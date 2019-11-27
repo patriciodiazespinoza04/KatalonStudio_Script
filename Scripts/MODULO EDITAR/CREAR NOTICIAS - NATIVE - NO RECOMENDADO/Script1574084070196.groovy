@@ -43,9 +43,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/a_Traditional login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas/input_Email_email'), 'patricio.diaz.espinoza@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas/input_Email_email'), 'patricio.diaz@bnamericas.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_BNamericas/input_Password_password'), 'Q/1VZRScvPhCtXranT/CyQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_BNamericas/input_Password_password'), 'kjblLDGyaYt8RhZtaCIlLQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Log in'))
 
@@ -128,7 +128,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Company'), 'test')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Company'), 'Citibank')
 
 WebUI.delay(3)
 
@@ -257,7 +257,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Hitos'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Hitos'), 'Descripcion de la tabla')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Hitos'), 'Big River Gold')
 
 WebUI.delay(1)
 
