@@ -250,6 +250,29 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Edita
 
 WebUI.delay(1)
 
+// AGREGAR DETALLE DEL ROL
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Nuevo proyecto/Agregar_Detalle_Rol'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/p_1'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/div_Detalle del rol en Spanish'),
+	'Detalle del rol en Spanish')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/button_Traducir al                        Ingls'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/button_Guardar'))
+
+// FIN AGREGAR DETALLE
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Temas'))
 
 WebUI.delay(1)
