@@ -11,79 +11,79 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6f2aa059-4030-4a1b-8b40-4080977eef34</testSuiteGuid>
    <testCaseLink>
-      <guid>a79a716f-6abd-45d8-b6d1-856e28cf79af</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR NOTICIAS - ENTREVISTA - RECOMENDADO</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2412e835-18f6-4718-a644-da68407901c9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR NOTICIAS - NATIVE - NO RECOMENDADO</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3ea9abb7-df48-497d-a6ef-adbe42a92c55</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - ESTANDAR - REVISADO</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6b48bbb5-da21-4855-9033-4e1de76a5ccb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - PRA</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4a500397-b671-41fb-a2ad-4401fee7b854</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a5266ae4-c0d9-494e-a5ad-280b174b1fbd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR HITOS - ESTANDAR</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ca84651d-ed25-4717-8b8a-4f0ed7be7c57</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR HITOS</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d99bb1f3-8f5a-4f16-9dbd-0d45efdc0ee4</guid>
+      <guid>847a0d3c-7a98-43f9-ae5c-4f9fe55e8ab1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR COMPANY - ESTANDAR - REVISADO</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9a9234fa-341b-4e18-b850-3095d4b18200</guid>
+      <guid>8c186019-3730-4111-84c2-26bf2cc461e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR COMPANY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>554f02c4-1549-425b-9e6f-189baecfcc81</guid>
+      <guid>0378b22c-0047-462e-9df8-302829555e82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR HITOS - ESTANDAR</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6b683c5-a0a2-4641-a8bc-5faffe6d4841</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR HITOS</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4fbe5f70-c862-4581-8fbc-c85ca64c32e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR NOTICIAS - ENTREVISTA - RECOMENDADO</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ea8e6522-e83e-4966-b356-f9ac51e64c17</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR NOTICIAS - NATIVE - NO RECOMENDADO</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4d261877-7c9c-415a-a5d7-c49818358c6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PERSONAS - ESTANDAR - REVISADO - ACCESO ESPECIAL</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fbaf1978-b644-461a-ba8c-d57f286fdb94</guid>
+      <guid>880332c1-3701-4ee7-8647-eb2c71acb720</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PERSONAS</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d43c1ee-fbdd-4997-8077-383c460d1226</guid>
+      <guid>f3db6ba9-ade2-455e-a793-91f1dc9858a8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - ESTANDAR - REVISADO</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3843ade-ee84-4245-93ee-be8525abc368</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - PRA</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf0c5d00-de05-44d6-ae27-12446a92e0fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7281e8b2-639d-4b42-a9a5-d05c0501f0ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR REPORTES</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e63be24-9dba-495d-8bf6-59f16b932ad9</guid>
+      <guid>842732f3-9222-4e65-9ae7-338b30f563a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR SET DE DATOS</testCaseId>

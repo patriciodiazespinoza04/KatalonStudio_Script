@@ -86,7 +86,7 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_BNamericas - Ma
 
 //***********************************************************************************************************************
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Email_Primary_Contact'),'patricio.diaz.espinoza@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Email_Primary_Contact'),'patricio_diaz_espinoza@hotmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Name_Primary_Contact'),'Patricio Diaz')
 

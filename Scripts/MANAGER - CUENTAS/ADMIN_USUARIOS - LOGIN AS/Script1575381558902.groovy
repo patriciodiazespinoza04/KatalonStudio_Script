@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Usuarios
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Buscar_Usuarios'), 'damelis.diaz')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Buscar_Usuarios'), 'alejandro.soto')
 
 WebUI.delay(1)
 
@@ -61,7 +61,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Logout_A
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Buscar_Usuarios'), 'damelis.diaz')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Buscar_Usuarios'), 'alejandro.soto')
 
 WebUI.delay(1)
 
