@@ -76,10 +76,24 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Ma
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Razon_Social'),'Razon Social Automatizada ' + RandomStringUtils.randomNumeric(5))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Pais_Company'), 'string:CHILE', true)
+//***********************************************************************************************************************
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Email_Primary_Contact'),'patricio.diaz@bnamericas.com')
+int optionListLength = 249
+Random rand = new Random()
+int index = rand.nextInt(optionListLength + 1)
+
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_BNamericas - Manager/Pais_Company'), index)
+
+//***********************************************************************************************************************
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Email_Primary_Contact'),'patricio.diaz.espinoza@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Name_Primary_Contact'),'Patricio Diaz')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'es', true)
+//***********************************************************************************************************************
+
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'es', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'en', true)
+
+//***********************************************************************************************************************
