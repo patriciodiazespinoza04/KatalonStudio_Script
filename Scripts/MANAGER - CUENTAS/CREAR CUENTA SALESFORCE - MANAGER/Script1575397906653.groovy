@@ -71,7 +71,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SalesForce/Acco
 
 //***********************************************************************************************************************
 
-int optionListLength = 9
+int optionListLength = 8
 Random rand = new Random()
 int index = rand.nextInt(optionListLength + 1)
 
@@ -81,7 +81,7 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Acco
 
 //***********************************************************************************************************************
  
-int optionListLength2 = 249
+int optionListLength2 = 150
 Random rand2 = new Random()
 int index2 = rand2.nextInt(optionListLength2 + 1)
  
@@ -125,7 +125,7 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Cont
 //***********************************************************************************************************************
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SalesForce/Contacts_Lead_Source'), 'Correo Electrónico (Servicio Cliente)', true)
-WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Contacts_Lead_Source'), 8)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Contacts_Lead_Source'), 7)
 
 WebUI.click(findTestObject('Object Repository/Page_SalesForce/Account_Button_Save'))
 
@@ -165,12 +165,12 @@ WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Name_Company'), 'Salesforce Automatizado')
 
 //***********************************************************************************************************************
-
+/*
 Random rnd = new Random()
  
 randomNumber = (10000000 + rnd.nextInt(99999999))
- 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/ID_Sap'), String.valueOf(randomNumber))
+*/
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/ID_Sap'), '999966636')
 
 //***********************************************************************************************************************
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Facturacion'), 'string:OLD_BNA', true)
@@ -181,7 +181,7 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Razon_
 
 //***********************************************************************************************************************
 
-int optionListLength4 = 249
+int optionListLength4 = 200
 Random rand4 = new Random()
 int index4 = rand4.nextInt(optionListLength4 + 1)
 
@@ -193,6 +193,6 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Email_
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Name_Primary_Contact'), 'patricio diaz')
 
 //***********************************************************************************************************************
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'es', true)
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'en', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'es', true)
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'en', true)
 
