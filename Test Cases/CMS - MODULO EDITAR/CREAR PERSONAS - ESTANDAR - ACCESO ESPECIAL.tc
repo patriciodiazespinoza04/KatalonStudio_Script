@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AGREGAR CUENTA</name>
+   <name>CREAR PERSONAS - ESTANDAR - ACCESO ESPECIAL</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b845b0f7-50bf-4105-bd3a-87df04780971</testCaseGuid>
+   <testCaseGuid>02b1881b-dff7-40aa-badd-458bd7e41787</testCaseGuid>
 </TestCaseEntity>

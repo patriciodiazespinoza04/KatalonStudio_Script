@@ -14,7 +14,7 @@
       <guid>847a0d3c-7a98-43f9-ae5c-4f9fe55e8ab1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR COMPANY - ESTANDAR - REVISADO</testCaseId>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR COMPANY - ESTANDAR</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8c186019-3730-4111-84c2-26bf2cc461e9</guid>
@@ -50,7 +50,7 @@
       <guid>4d261877-7c9c-415a-a5d7-c49818358c6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PERSONAS - ESTANDAR - REVISADO - ACCESO ESPECIAL</testCaseId>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PERSONAS - ESTANDAR - ACCESO ESPECIAL</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>880332c1-3701-4ee7-8647-eb2c71acb720</guid>
@@ -62,7 +62,7 @@
       <guid>f3db6ba9-ade2-455e-a793-91f1dc9858a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - ESTANDAR - REVISADO</testCaseId>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - ESTANDAR</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a3843ade-ee84-4245-93ee-be8525abc368</guid>
