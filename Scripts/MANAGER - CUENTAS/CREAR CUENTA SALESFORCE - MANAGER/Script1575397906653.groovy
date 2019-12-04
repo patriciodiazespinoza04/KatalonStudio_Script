@@ -124,7 +124,8 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Cont
  
 //***********************************************************************************************************************
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SalesForce/Contacts_Lead_Source'), 'Correo Electrónico (Servicio Cliente)', true)
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SalesForce/Contacts_Lead_Source'), 'Correo Electrónico (Servicio Cliente)', true)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Contacts_Lead_Source'), 8)
 
 WebUI.click(findTestObject('Object Repository/Page_SalesForce/Account_Button_Save'))
 
