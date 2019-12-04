@@ -170,7 +170,9 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/ID_Sap
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Facturacion'), 'string:OLD_BNA', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Ejecutivo'), 'string:alexander.juarez@bnamericas.com', true)
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Ejecutivo'), 'string:alexander.juarez@bnamericas.com', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Ejecutivo'), 'string:kpakciarz@bnamericas.com', true)
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Razon_Social'),'Razon Social Automatizada ' + RandomStringUtils.randomNumeric(5))
 
