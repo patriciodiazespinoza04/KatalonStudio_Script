@@ -228,15 +228,15 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Billin
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Billing_Source_Contract'), 'string:OLD_BNA', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Billing_Source_Contract'), 'string:STORE', true)
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Contract_Type'), 'string:SUBSCRIPTION', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Contract_Type'), 'string:UPSELL', true)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Max_Users_Contract'), '5')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Max_Users_Contract'), '3')
 
 WebUI.delay(1)
 
@@ -256,9 +256,9 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Dia_Actu
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Active_Contract'))
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Active_Contract'))
 
-WebUI.delay(1)
+//WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Add_Contract_2'))
 
@@ -358,6 +358,12 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Ma
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Descripcion'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Descripcion'), 'Ingreso de Bill Automatizado')
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Date'))
 
 WebUI.delay(1)
@@ -386,3 +392,7 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_I
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Add'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
