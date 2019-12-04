@@ -61,9 +61,20 @@ WebUI.click(findTestObject('Object Repository/Page_SalesForce/button_New'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Account_Name'), 'Salesforce Automatizado')
+ValorRandom = RandomStringUtils.randomNumeric(5)
 
-WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Account_Number'), '999966636')
+//WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Account_Name'), 'Salesforce Automatizado ' + RandomStringUtils.randomNumeric(5))
+
+WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Account_Name'), 'Salesforce Automatizado ' + ValorRandom)
+
+//***********************************************************************************************************************
+Random rnd = new Random()
+  
+randomNumber = (10000000 + rnd.nextInt(99999999))
+  
+WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Account_Number'), String.valueOf(randomNumber))
+
+//***********************************************************************************************************************
 
 WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Account_WebSite'), 'http://www.bnamericas.com')
 
@@ -71,7 +82,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SalesForce/Acco
 
 //***********************************************************************************************************************
 
-int optionListLength = 8
+int optionListLength = 7
 Random rand = new Random()
 int index = rand.nextInt(optionListLength + 1)
 
@@ -104,7 +115,7 @@ WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Contacts_First_N
 
 WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Contacts_Last_Name'), 'Diaz')
 
-WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Contacts_Account_Name'), 'Salesforce Automatizado')
+WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Contacts_Account_Name'), 'Salesforce Automatizado ' + ValorRandom)
 
 WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Contacts_Email'), 'patricio.diaz.espinoza@gmail.com')
 
@@ -162,20 +173,13 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Agregar_
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Name_Company'), 'Salesforce Automatizado')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Name_Company'), 'Salesforce Automatizado ' + ValorRandom)
 
-//***********************************************************************************************************************
-/*
-Random rnd = new Random()
- 
-randomNumber = (10000000 + rnd.nextInt(99999999))
-*/
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/ID_Sap'), '999966636')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/ID_Sap'), String.valueOf(randomNumber))
 
-//***********************************************************************************************************************
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Facturacion'), 'string:OLD_BNA', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Ejecutivo'), 'string:_rosbelys.rondon@testbnamericas.test_', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Ejecutivo'), 'string:alexander.juarez@bnamericas.com', true)
 
 WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Razon_Social'),'Razon Social Automatizada ' + RandomStringUtils.randomNumeric(5))
 
@@ -196,3 +200,97 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Name_P
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'es', true)
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Idioma_Primary_Contact'), 'en', true)
 
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/button_Add'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Search_Account'), 'Salesforce Automatizado ' + ValorRandom)
+
+WebUI.delay(1)
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_BNamericas - Manager/Search_Account'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/select_Usuarios'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Add_Contract'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Name_Contract'), 'Contrato Automatizado ' + RandomStringUtils.randomNumeric(5))
+
+WebUI.delay(1)
+
+//***********************************************************************************************************************
+Random rnd2 = new Random()
+ 
+randomNumber2 = (10000000 + rnd2.nextInt(99999999))
+ 
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Billing_Number_Contract'), String.valueOf(randomNumber2))
+ 
+//***********************************************************************************************************************
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Billing_Source_Contract'), 'string:OLD_BNA', true)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Contract_Type'), 'string:SUBSCRIPTION', true)
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Max_Users_Contract'), '5')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Start_Date_Contract'), formattedDate_Inicio)
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Expiration_Date_Contract'), formattedDate_Fin)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Active_Contract'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Add_Contract_2'))
+
+WebUI.delay(1)
+
+WebUI.mouseOver(findTestObject('Object Repository/Page_BNamericas - Manager/Contract_Name'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/button_Consult'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Contract_Add_Users'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/User_Email'), 'patricio.diaz.espinoza@gmail.com')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/User_First_Name'), 'Patricio')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/User_Last_Name'), 'Diaz')
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/User_Language'), 'en', true)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Add_User'))
