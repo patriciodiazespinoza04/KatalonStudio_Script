@@ -63,8 +63,6 @@ WebUI.delay(1)
 
 ValorRandom = RandomStringUtils.randomNumeric(5)
 
-//WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Account_Name'), 'Salesforce Automatizado ' + RandomStringUtils.randomNumeric(5))
-
 WebUI.setText(findTestObject('Object Repository/Page_SalesForce/Account_Name'), 'Salesforce Automatizado ' + ValorRandom)
 
 //***********************************************************************************************************************
@@ -82,13 +80,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SalesForce/Acco
 
 //***********************************************************************************************************************
 
-int optionListLength = 7
-Random rand = new Random()
-int index = rand.nextInt(optionListLength + 1)
-
-WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Account_Industry'), index)
-
-//***********************************************************************************************************************
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Account_Industry'), 3)
 
 //***********************************************************************************************************************
  
@@ -135,7 +127,6 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Cont
  
 //***********************************************************************************************************************
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SalesForce/Contacts_Lead_Source'), 'Correo Electrónico (Servicio Cliente)', true)
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_SalesForce/Contacts_Lead_Source'), 7)
 
 WebUI.click(findTestObject('Object Repository/Page_SalesForce/Account_Button_Save'))
@@ -249,11 +240,19 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Max_Us
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Start_Date_Contract'), formattedDate_Inicio)
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Start_Date_Contract'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Expiration_Date_Contract'), formattedDate_Fin)
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Expiration_Date_Contract'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Dia_Actual'))
 
 WebUI.delay(1)
 
@@ -294,3 +293,96 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Ma
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Add_User'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Contract_Add_Bill'))
+
+WebUI.delay(1)
+
+//***********************************************************************************************************************
+Random rnd3 = new Random()
+  
+randomNumber3 = (10000000 + rnd3.nextInt(99999999))
+  
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_ID'), String.valueOf(randomNumber3))
+  
+//***********************************************************************************************************************
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Company_Name'), 'Compañia Bill Automatizado ' + RandomStringUtils.randomNumeric(5))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Address_1'), 'Los Militares')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Address_2'), '6191')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_City'), 'Las Condes')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Region'), 'Metropolitana')
+
+WebUI.delay(1)
+
+//***********************************************************************************************************************
+ 
+int optionListLength5 = 200
+Random rand5 = new Random()
+int index5 = rand5.nextInt(optionListLength5 + 1)
+
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Country'), index5)
+
+//***********************************************************************************************************************
+
+WebUI.delay(1)
+
+//***********************************************************************************************************************
+Random rnd4 = new Random()
+   
+randomNumber4 = (10000000 + rnd4.nextInt(99999999))
+   
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Number'), String.valueOf(randomNumber4))
+  
+//***********************************************************************************************************************
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Source'), 'string:OLD_BNA', true)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Date'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Dia_Actual'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Add_Item'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Item_Name'), 'Bill Nombre Item Automatizado ' + RandomStringUtils.randomNumeric(5))
+
+WebUI.delay(1)
+
+//***********************************************************************************************************************
+Random rnd5 = new Random()
+	
+randomNumber5 = (10000000 + rnd5.nextInt(99999999))
+	
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Item_Total'), String.valueOf(randomNumber5))
+   
+//***********************************************************************************************************************
+ 
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Bill_Add'))

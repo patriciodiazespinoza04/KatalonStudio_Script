@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Expiration_Date_Contract</name>
+   <name>Bill_Number</name>
    <tag></tag>
-   <elementGuidId>587da547-c25d-4377-b214-f374fa096d51</elementGuidId>
+   <elementGuidId>47c0f652-3750-4bab-8af7-c63482472388</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'planExpirationDate']</value>
+         <value>//*[@id = 'billingNumber' and @ng-model = 'plan.transientBill.billingNumber']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>plan.expirationDate</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>planExpirationDate</value>
+      <value>billingNumber</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>plan.transientBill.billingNumber</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Expiration_Date_Contract</name>
+   <name>Dia_Actual</name>
    <tag></tag>
-   <elementGuidId>587da547-c25d-4377-b214-f374fa096d51</elementGuidId>
+   <elementGuidId>8a3857b9-29c3-42b5-9baf-a69b43c40104</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'planExpirationDate']</value>
+         <value>//*[@class = '_720kb-datepicker-calendar-day ng-binding ng-scope _720kb-datepicker-today']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>plan.expirationDate</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>planExpirationDate</value>
+      <value>_720kb-datepicker-calendar-day ng-binding ng-scope _720kb-datepicker-today</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Expiration_Date_Contract</name>
+   <name>Contract_Add_Bill</name>
    <tag></tag>
-   <elementGuidId>587da547-c25d-4377-b214-f374fa096d51</elementGuidId>
+   <elementGuidId>8b10fb5a-81d3-47cb-a2cf-1ece08d0fc7a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'planExpirationDate']</value>
+         <value>//*[@data-target = '#addBillModal']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>plan.expirationDate</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>data-target</name>
       <type>Main</type>
-      <value>planExpirationDate</value>
+      <value>#addBillModal</value>
    </webElementProperties>
 </WebElementEntity>

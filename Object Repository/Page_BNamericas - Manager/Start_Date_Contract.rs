@@ -7,16 +7,23 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ng-model = 'plan.startDate']</value>
+         <value>//*[@id = 'planStartDate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
       <value>plan.startDate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>planStartDate</value>
    </webElementProperties>
 </WebElementEntity>
