@@ -65,7 +65,7 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager/Buscar
 
 WebUI.delay(1)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_BNamericas - Manager/Buscar_Usuarios'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/Lupa_Busqueda'))
 
 WebUI.delay(2)
 
