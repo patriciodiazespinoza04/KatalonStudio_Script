@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CREAR CUENTA SALESFORCE - MANAGER</name>
+   <name>CREAR CUENTA EN SALESFORCE Y MANAGER</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b845b0f7-50bf-4105-bd3a-87df04780971</testCaseGuid>

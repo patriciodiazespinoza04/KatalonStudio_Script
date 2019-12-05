@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDITAR CUENTA, CONTRATO, USUARIO - MANAGER</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de166895-f278-48c8-ac00-ffa25836d4da</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ACCOUNT_SEARCH_NO ACTIVO').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6a1d9edb-24a3-418b-bf2c-e59fee3f947b</id>
+      <masked>false</masked>
+      <name>ACCOUNT_NAME</name>
+   </variable>
+</TestCaseEntity>

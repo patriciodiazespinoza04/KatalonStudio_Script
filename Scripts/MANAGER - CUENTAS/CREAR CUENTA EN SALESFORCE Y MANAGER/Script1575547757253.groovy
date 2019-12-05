@@ -22,19 +22,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 //***********************************************************************
-mydate = new Date()
 
-formattedDate_Inicio = mydate.format('dd/MM/yyyy')
-
-use(TimeCategory, { 
-        today = new Date()
-
-        NextYear = (today + 2.year)
-    })
-
-formattedDate_Fin = NextYear.format('dd/MM/yyyy')
-
-//***********************************************************************
 // INGRESO A SALESFORCE
 WebUI.openBrowser('')
 

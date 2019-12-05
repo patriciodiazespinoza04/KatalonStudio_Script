@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ACCOUNT_SEARCH_NO ACTIVO</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9cec3349-87cc-4505-acaa-f06f79a99f59</dataFileGUID>
+   <dataSourceUrl>jdbc:postgresql://bnamericas-qa.cbxtterh28gm.us-east-1.rds.amazonaws.com:5432/bnamericas</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>OGRpSDZYc2phQw==</password>
+   <query>select 	a.name
+from 	account a, plan p
+where 	a.keycontact = p.owner_id and
+		p.active = 'false' and
+		a.&quot;name&quot; like 'Salesforce Automatizado%'
+order by a.id desc, p.id desc
+limit 1</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>pdiaz</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
