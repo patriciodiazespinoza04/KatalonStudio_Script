@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager/button_E
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager - Editar/Edit_Account_Name'), 'Salesforce Automatizado Editado ' + RandomStringUtils.randomNumeric(5))
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager - Editar/Edit_Account_Name'), 'Edit Salesforce Automatizado ' + RandomStringUtils.randomNumeric(5))
 
 /*
 WebUI.delay(1)
@@ -116,15 +116,19 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Manager - Editar
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager - Editar/Edit_Name'), 'Patricio_2')
+Random rnd = new Random()
+
+randomNumber = (1 + rnd.nextInt(999))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager - Editar/Edit_Name'), 'Patricio_' + String.valueOf(randomNumber))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager - Editar/Edit_Last_Name'), 'Diaz_2')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager - Editar/Edit_Last_Name'), 'Diaz_' + String.valueOf(randomNumber))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager - Editar/Edit_Email'), 'patricio.diaz.espinoza.2@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Manager - Editar/Edit_Email'), 'patricio.diaz.espinoza.' + String.valueOf(randomNumber) + '@gmail.com')
 
 WebUI.delay(1)
 
