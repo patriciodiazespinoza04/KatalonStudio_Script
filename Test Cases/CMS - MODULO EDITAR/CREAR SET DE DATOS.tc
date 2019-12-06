@@ -5,4 +5,46 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1fcc42c7-9fe1-4628-988f-9545dafa7a2f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ARTICLE_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>18301065-bbfe-4841-9342-0b93fd9cde2d</id>
+      <masked>false</masked>
+      <name>NOTICIA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('PROJECT_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ca3a65ec-67f1-4534-99c4-ba5244c8f527</id>
+      <masked>false</masked>
+      <name>PROJECT</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('COMPANY_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f041c06b-94d3-48e0-a586-64b65e1c6897</id>
+      <masked>false</masked>
+      <name>COMPANY</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('PERSON_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ba1dc3fb-1ce0-47b2-80f1-3e43602f1485</id>
+      <masked>false</masked>
+      <name>PERSON</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('REPORT_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>32398b78-9336-46b4-a314-d00464744835</id>
+      <masked>false</masked>
+      <name>REPORT</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DATASET_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6f88cce8-6c5d-4dc6-a6e9-07f60f5a14c0</id>
+      <masked>false</masked>
+      <name>DATASET</name>
+   </variable>
 </TestCaseEntity>

@@ -156,7 +156,8 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nue
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Check_Button'))
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/div_Company test OFG Principal_control__indicator'))
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Check_Button'))
 
 WebUI.delay(1)
 

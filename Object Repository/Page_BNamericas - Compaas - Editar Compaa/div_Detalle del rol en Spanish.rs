@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='modalRolexwfis2phe-rey-de-plata0']/div/div/div[2]/div[2]/div/div/div[3]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;modalRolexwfis2phe-rey-de-plata0&quot;)/div[@class=&quot;modal-dialog wider&quot;]/div[@class=&quot;modal-content md-whiteframe-16dp&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group-custom mb-4&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper&quot;]/div[@class=&quot;fr-element fr-view&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,14 +59,14 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Detalle del rol en Spanish</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

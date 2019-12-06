@@ -142,19 +142,6 @@ WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Set De Datos/i
 
 WebUI.delay(1)
 
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Set De Datos/p'))
-
-//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Sets de datos - Editar Set de datos/div_Redo_fr-element fr-view'),'Descripcion QA')
-
-//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Sets de datos - Editar Set de datos/div_Descripcion QA'),'Descripcion QA')
-
-//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Set De Datos/div_Descripcion insights'), 'Descripcion insights')
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Set De Datos/p'))
-//WebUI.setText(findTestObject('Object Repository/Page_BNamericas/div_Detalle del Rol QA'), 'Descripcion QA')
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas - Set De Datos/div_Descripcion QA'))
-//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Set De Datos/div_Descripcion QA'), 'Descripcion QA')
-WebUI.delay(1)
-
 WebUI.scrollToPosition(50, 50)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Set De Datos/Eje_X'), 'string:mes', true)
@@ -194,8 +181,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'),
-	'michael chu')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'), NOTICIA)
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'),'michael chu')
 
 WebUI.delay(3)
 
@@ -213,8 +200,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),
-	'minera')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), PROJECT)
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),'minera')
 
 WebUI.delay(1)
 
@@ -248,7 +235,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Company'), 'Citibank')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Company'), COMPANY)
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Company'), 'Citibank')
 
 WebUI.delay(3)
 
@@ -291,8 +279,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),
-	'rogelio sanchez martinez')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), PERSON)
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar personas_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),'rogelio sanchez martinez')
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Rogelio Snchez Martnez_control__indicator'))
 
@@ -308,8 +296,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar reportes_form'),
-	'mineria')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar reportes_form'), REPORT)
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar reportes_form'),'mineria')
 
 WebUI.delay(1)
 
@@ -327,8 +315,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/button_Relacionar set de datos'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),
-	'gas')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), DATASET)
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar set de datos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),'gas')
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_Tarifas de gas natural residencial en Colombia_control__indicator'))
 

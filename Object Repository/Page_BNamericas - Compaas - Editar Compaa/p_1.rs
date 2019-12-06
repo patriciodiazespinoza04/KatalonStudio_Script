@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;modalRolexwfis2phe-rey-de-plata0&quot;)/div[@class=&quot;modal-dialog wider&quot;]/div[@class=&quot;modal-content md-whiteframe-16dp&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group-custom mb-4&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper show-placeholder&quot;]/div[@class=&quot;fr-element fr-view&quot;]/p[1]</value>
+         <value>//div[@class = 'fr-wrapper show-placeholder']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,18 +17,25 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modalRolexwfis2phe-rey-de-plata0&quot;)/div[@class=&quot;modal-dialog wider&quot;]/div[@class=&quot;modal-content md-whiteframe-16dp&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-group-custom mb-4&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper show-placeholder&quot;]/div[@class=&quot;fr-element fr-view&quot;]/p[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fr-wrapper show-placeholder</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
