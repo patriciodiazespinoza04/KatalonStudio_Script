@@ -81,6 +81,42 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR REPORTES</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5ecc60c3-4994-42c7-bc36-2766779794b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea6482c7-2fb4-4478-b272-b99be1c77ca3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>39628cb6-f572-4525-b582-7fe542eb5a48</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b726100c-6b9d-4253-80f8-a9db85e6f94a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7065f61d-4a49-40a9-af8b-d1ec47826e98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8f32ae24-e217-49b4-a20e-cae6e8934310</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>842732f3-9222-4e65-9ae7-338b30f563a3</guid>

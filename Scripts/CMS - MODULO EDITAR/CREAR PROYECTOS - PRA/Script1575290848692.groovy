@@ -307,7 +307,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas/Agregar_Detalle_Ro
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_BNamericas/label_Detalle del rol Espaol'))
+//WebUI.click(findTestObject('Object Repository/Page_BNamericas/label_Detalle del rol Espaol'))
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/p'))
 

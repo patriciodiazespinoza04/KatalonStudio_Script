@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ARTICLE_TRANSLATION</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9cec3349-87cc-4505-acaa-f06f79a99f59</dataFileGUID>
+   <dataSourceUrl>jdbc:postgresql://bnamericas-qa.cbxtterh28gm.us-east-1.rds.amazonaws.com:5432/bnamericas</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>OGRpSDZYc2phQw==</password>
+   <query>SELECT  title
+FROM    contenttranslation
+WHERE   dtype = 'ArticleTranslation'
+and		translationlanguage = 'es'
+ORDER BY RANDOM()
+LIMIT 1</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>pdiaz</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
