@@ -6,11 +6,15 @@
    <elementGuidId>6e2240f4-11d0-4481-931e-5f652dcd325c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@ng-click = concat('vm.save(' , &quot;'&quot; , 'Relación guardada' , &quot;'&quot; , ')')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='modalRolexab3dddox-company-test-ofg-principal0']/div/div/div[3]/button[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,7 +31,7 @@
       <value>btn btn__green btn-md</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>modal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

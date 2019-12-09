@@ -6,13 +6,6 @@
    <comment></comment>
    <testCaseGuid>d86dd99d-993b-426f-9844-e98d2d2f5cf2</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('ARTICLE_TRANSLATION').getValue(1, 1)</defaultValue>
-      <description></description>
-      <id>4cac3984-cea2-40d6-b118-31a0b5c99c62</id>
-      <masked>false</masked>
-      <name>NOTICIA</name>
-   </variable>
-   <variable>
       <defaultValue>findTestData('COMPANY_TRANSLATION').getValue(1, 1)</defaultValue>
       <description></description>
       <id>0b0aafad-31d1-438c-ab59-cfc1d67681e5</id>
@@ -32,13 +25,6 @@
       <id>d43dbd33-ff95-453e-a1ae-4494de1db3d9</id>
       <masked>false</masked>
       <name>PERSON</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('PROJECT_TRANSLATION').getValue(1, 1)</defaultValue>
-      <description></description>
-      <id>b0943c1d-1827-4ab7-8f35-e9fbc2043f88</id>
-      <masked>false</masked>
-      <name>PROJECT</name>
    </variable>
    <variable>
       <defaultValue>findTestData('REPORT_TRANSLATION').getValue(1, 1)</defaultValue>

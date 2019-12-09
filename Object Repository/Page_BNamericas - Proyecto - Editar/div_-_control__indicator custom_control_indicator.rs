@@ -6,11 +6,15 @@
    <elementGuidId>778ff978-e821-4295-a1e8-ee60a30a64dc</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mCSB_2_container&quot;)/div[@class=&quot;ng-isolate-scope&quot;]/ul[@class=&quot;ivh-treeview&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope ivh-treeview-node-leaf&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/span[@class=&quot;ivh-treeview-checkbox-wrapper ng-scope&quot;]/span[@class=&quot;ng-isolate-scope&quot;]/label[@class=&quot;control color-gray control--radio pl-3&quot;]/div[@class=&quot;control__indicator custom_control_indicator&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='mCSB_2_container']/div/ul/li[5]/div/span[2]/span/label/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

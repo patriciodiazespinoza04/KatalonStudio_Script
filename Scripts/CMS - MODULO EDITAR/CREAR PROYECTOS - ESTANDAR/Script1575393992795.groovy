@@ -256,7 +256,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Company'), 'Citibank')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo artculo/Buscar_Company'), 'Citibank N.A., Sucursal Ecuador')
 
 WebUI.delay(3)
 
@@ -274,6 +274,11 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Edita
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/Buscar_Fuentes'))
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/Buscar_Fuentes'),'Fiscalizador')
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/div_-_control__indicator custom_control_indicator'))
 
 WebUI.delay(1)
@@ -283,8 +288,6 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/Agregar_Detalle_Rol'))
 
 WebUI.delay(1)
-
-//WebUI.click(findTestObject('Object Repository/Page_BNamericas/label_Detalle del rol Espaol'))
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/p'))
 

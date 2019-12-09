@@ -228,7 +228,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 WebUI.delay(1)
 
 //WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'), PROJECT)
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),'minera')
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar proyectos_form-control border-right-0 ng-pristine ng-untouched ng-valid ng-empty'),'Minera Capela (ex Rey de Plata)')
 
 WebUI.delay(1)
 
@@ -246,6 +246,11 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Edita
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/Buscar_Fuentes'))
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/Buscar_Fuentes'),'Fiscalizador')
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Proyecto - Editar/div_-_control__indicator custom_control_indicator'))
 
 WebUI.delay(1)
@@ -258,8 +263,9 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/p_1'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/div_Detalle del rol en Spanish'),
-	'Detalle del rol en Spanish')
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/div_Detalle del rol en Spanish'), 'Detalle del rol en Spanish')
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/div_Ingreso de Detalle del Rol en Spanish'), 'Ingreso de Detalle del Rol en Spanish')
 
 WebUI.delay(3)
 
@@ -291,8 +297,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Edita
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'), NOTICIA)
-//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'), 'michael chu')
+//WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'), NOTICIA)
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/input_Relacionar noticias'), 'Michael Chu')
 
 WebUI.delay(3)
 
