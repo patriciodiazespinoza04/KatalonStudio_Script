@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ab34fca1-8b98-4bbf-b5a5-2f7aee1a625d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('REPORT_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>068d3f08-cddb-4379-a17e-f7698fd9bcc3</id>
+      <masked>false</masked>
+      <name>REPORT</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DATASET_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a780e0e4-19a3-4987-be47-f8edc151d9f7</id>
+      <masked>false</masked>
+      <name>DATASET</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('PERSON_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>81695c73-02dd-4ed4-8d4b-683ce7db1d77</id>
+      <masked>false</masked>
+      <name>PERSON</name>
+   </variable>
 </TestCaseEntity>
