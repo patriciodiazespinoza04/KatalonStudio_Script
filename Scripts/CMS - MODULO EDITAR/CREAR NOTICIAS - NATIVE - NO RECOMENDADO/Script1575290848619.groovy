@@ -49,6 +49,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_BNamericas/input_P
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/button_Log in'))
 
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_BNamericas/i_Cargando_fal fa-marker'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_BNamericas/i_Cargando_fal fa-marker'), 0)
+
 WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas/i_Cargando_fal fa-marker'))
