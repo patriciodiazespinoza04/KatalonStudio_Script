@@ -49,12 +49,6 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0b0aafad-31d1-438c-ab59-cfc1d67681e5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>ee98e410-7849-4fe5-b2f2-af90966e502f</variableId>
       </variableLink>
       <variableLink>
@@ -255,12 +249,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PERSONAS</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>731c609d-4923-4322-aa8b-03496e7d5a6b</variableId>
-      </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

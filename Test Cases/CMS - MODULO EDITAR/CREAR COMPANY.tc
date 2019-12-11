@@ -6,13 +6,6 @@
    <comment></comment>
    <testCaseGuid>d86dd99d-993b-426f-9844-e98d2d2f5cf2</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('COMPANY_TRANSLATION').getValue(1, 1)</defaultValue>
-      <description></description>
-      <id>0b0aafad-31d1-438c-ab59-cfc1d67681e5</id>
-      <masked>false</masked>
-      <name>COMPANY</name>
-   </variable>
-   <variable>
       <defaultValue>findTestData('DATASET_TRANSLATION').getValue(1, 1)</defaultValue>
       <description></description>
       <id>ee98e410-7849-4fe5-b2f2-af90966e502f</id>
