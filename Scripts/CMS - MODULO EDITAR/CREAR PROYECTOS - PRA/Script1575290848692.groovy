@@ -412,6 +412,8 @@ WebUI.delay(1)
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Persona_Tipo de Relacion_Cargo'), 
     'string:PROJECT_POSITION_IT', true)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Propiedades_Modulo Proyecto'))
@@ -440,6 +442,16 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - No
 WebUI.delay(1)
 
 WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Riesgo'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/p_2'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BNamericas - Compaas - Editar Compaa/div_Detalle del Riesgo'),'Descripcion del Riesgo QA')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Traduction'))
 

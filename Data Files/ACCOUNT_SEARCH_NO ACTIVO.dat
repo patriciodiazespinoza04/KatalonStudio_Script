@@ -8,8 +8,9 @@
    <dataFileGUID>9cec3349-87cc-4505-acaa-f06f79a99f59</dataFileGUID>
    <dataSourceUrl>jdbc:postgresql://bnamericas-qa.cbxtterh28gm.us-east-1.rds.amazonaws.com:5432/bnamericas</dataSourceUrl>
    <driver>DBData</driver>
+   <driverClassName></driverClassName>
    <isInternalPath>false</isInternalPath>
-   <password>OGRpSDZYc2phQw==</password>
+   <password>ZjFnaEhodHlGVQ==</password>
    <query>select 	a.name
 from 	account a, plan p
 where 	a.keycontact = p.owner_id and
@@ -19,6 +20,6 @@ order by a.id desc, p.id desc
 limit 1</query>
    <secureUserAccount>true</secureUserAccount>
    <sheetName></sheetName>
-   <user>pdiaz</user>
+   <user>qa</user>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CREAR SET DE DATOS - 30 Registros</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62efb24b-b00d-4f01-9bed-9e280fe611b4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('PROJECT_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9887a505-04bf-4fd2-9aa3-f79e30806796</id>
+      <masked>false</masked>
+      <name>PROJECT</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('COMPANY_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>dc6f63cc-59c9-4e81-a572-a43c16d2fc61</id>
+      <masked>false</masked>
+      <name>COMPANY</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('PERSON_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>028d64c7-14ac-4399-baf2-530950b4707f</id>
+      <masked>false</masked>
+      <name>PERSON</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('REPORT_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cc16a863-a6ef-433b-9b6e-8f6dc4bc5fd4</id>
+      <masked>false</masked>
+      <name>REPORT</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DATASET_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>45dcd55a-514d-43de-9029-4944e1d1f795</id>
+      <masked>false</masked>
+      <name>DATASET</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ARTICLE_TRANSLATION').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2074c27a-823d-4910-b849-62e196b54bcd</id>
+      <masked>false</masked>
+      <name>ARTICLE</name>
+   </variable>
+</TestCaseEntity>

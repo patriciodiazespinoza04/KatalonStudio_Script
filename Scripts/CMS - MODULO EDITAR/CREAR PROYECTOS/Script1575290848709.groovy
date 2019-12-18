@@ -388,6 +388,8 @@ WebUI.delay(1)
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/select_Persona_Tipo de Relacion_Cargo'),
 	'string:PROJECT_POSITION_IT', true)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/a_Propiedades_Modulo Proyecto'))

@@ -125,6 +125,7 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Nuevo
 WebUI.delay(1)
 
 WebUI.uploadFile(findTestObject('Object Repository/Page_BNamericas - Set De Datos/Cargar_Archivo'), 'C:\\File\\Oil Production Venezuela esp.csv')
+//WebUI.uploadFile(findTestObject('Object Repository/Page_BNamericas - Set De Datos/Cargar_Archivo'), '\\home\\ubuntu\\prueba_dataset\\Oil Production Venezuela esp.csv')
 
 WebUI.delay(1)
 
@@ -335,6 +336,8 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/span_'))
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Noticias - Editar Noticia/div_-_control__indicator custom_control_indicator_1'))
+
+WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(1)
 

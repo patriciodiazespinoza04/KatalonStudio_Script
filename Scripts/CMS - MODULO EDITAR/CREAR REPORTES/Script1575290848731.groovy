@@ -318,6 +318,8 @@ WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/span_')
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes - Editar Reporte/div_-_control__indicator custom_control_indicator'))
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_BNamericas - Reportes/a_Propiedades'))

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_-_control__indicator custom_control_indicator</name>
+   <name>p_2</name>
    <tag></tag>
-   <elementGuidId>f6616eb6-94f5-4723-9e52-1468f7c3bbc9</elementGuidId>
+   <elementGuidId>c69ce644-0f37-4950-b9fa-219a9455a329</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mCSB_2_container']/div/ul/li/div/div/ul/li[3]/div/span[2]/span/label/div</value>
+         <value>//div[@id='modalRolexwfis2phe-rey-de-plata0']/div/div/div[2]/div[2]/div/div/div[3]/div/p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tab-risk&quot;)/div[@class=&quot;mb-5&quot;]/div[@class=&quot;row my-4 align-items-start mx-30px&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper show-placeholder&quot;]/div[@class=&quot;fr-element fr-view&quot;]/p[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,59 +24,59 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>control__indicator custom_control_indicator</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mCSB_2_container&quot;)/div[@class=&quot;ng-isolate-scope&quot;]/ul[@class=&quot;ivh-treeview&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/div[1]/ul[@class=&quot;ivh-treeview ng-scope&quot;]/li[@class=&quot;ivh-treeview-node ng-scope ng-isolate-scope ivh-treeview-node-collapsed&quot;]/div[@class=&quot;ivh-treeview-node-content ng-scope&quot;]/span[@class=&quot;ivh-treeview-checkbox-wrapper ng-scope&quot;]/span[@class=&quot;ng-isolate-scope&quot;]/label[@class=&quot;control color-gray control--checkbox pl-3&quot;]/div[@class=&quot;control__indicator custom_control_indicator&quot;]</value>
+      <value>id(&quot;tab-risk&quot;)/div[@class=&quot;mb-5&quot;]/div[@class=&quot;row my-4 align-items-start mx-30px&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;fr-box fr-basic fr-top&quot;]/div[@class=&quot;fr-wrapper show-placeholder&quot;]/div[@class=&quot;fr-element fr-view&quot;]/p[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fr-wrapper show-placeholder</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mCSB_2_container']/div/ul/li/div/div/ul/li[3]/div/span[2]/span/label/div</value>
+      <value>//div[@id='modalRolexwfis2phe-rey-de-plata0']/div/div/div[2]/div[2]/div/div/div[3]/div/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[18]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Redo'])[2]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[18]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Undo'])[2]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aguas servidas - (PP)'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type something'])[2]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[19]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by'])[2]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/ul/li/div/div/ul/li[3]/div/span[2]/span/label/div</value>
+      <value>//div[2]/div/div/div[3]/div/p</value>
    </webElementXpaths>
 </WebElementEntity>

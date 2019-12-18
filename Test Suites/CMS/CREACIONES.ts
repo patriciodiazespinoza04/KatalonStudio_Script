@@ -11,169 +11,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6f2aa059-4030-4a1b-8b40-4080977eef34</testSuiteGuid>
    <testCaseLink>
-      <guid>847a0d3c-7a98-43f9-ae5c-4f9fe55e8ab1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR COMPANY - ESTANDAR</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>550d2514-6391-4492-84b5-671252ce219f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a6cd9fa0-2905-4fc6-95de-d227dc78e2ce</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4b489520-678e-4089-aab1-7076cc43e5ba</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>25795f20-441a-4678-a073-14045fbdf6de</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8c186019-3730-4111-84c2-26bf2cc461e9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR COMPANY</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ee98e410-7849-4fe5-b2f2-af90966e502f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d43dbd33-ff95-453e-a1ae-4494de1db3d9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>385b3a0d-4c91-40cd-accc-c0d45a1b9e25</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0378b22c-0047-462e-9df8-302829555e82</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR HITOS - ESTANDAR</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>85d186a0-3098-444f-8d33-703bd858ddd7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e0ae12f8-019c-482a-9ded-c0038713697c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>00b90944-fcd1-4ac2-85bf-cd496dc34935</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>097d004a-ae64-4607-a82f-3cc2e68e97c9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d5c33302-657b-4782-a7db-f47e5d6ee462</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c6b683c5-a0a2-4641-a8bc-5faffe6d4841</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR HITOS</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e8acc05e-59b8-49fc-86b4-53b378ca143f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fc69f3f1-a8d2-49b0-9c31-c321033984b9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>494d9802-f6f2-48ce-ac33-0dd942260723</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b681e82c-cc9b-463b-8e5f-1732148903c6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7ca30b4b-873c-4ee8-b2c5-73448d870428</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4fbe5f70-c862-4581-8fbc-c85ca64c32e6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR NOTICIAS - ENTREVISTA - RECOMENDADO</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a8ec74d6-af96-4468-b335-f837581db1bf</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>290eedfb-c631-43fe-babe-67e4e93aa6b7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>79221301-fc14-4c8c-8f30-0a23ecb1b217</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>03810a62-fcc8-4652-94a0-96373810fefb</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2c757928-46ed-415f-8f71-cbd79002ac75</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ea8e6522-e83e-4966-b356-f9ac51e64c17</guid>
+      <guid>14be689b-027b-41dd-99ea-fc81a79bfac2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR NOTICIAS - NATIVE - NO RECOMENDADO</testCaseId>
@@ -209,7 +47,241 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4d261877-7c9c-415a-a5d7-c49818358c6b</guid>
+      <guid>89215349-48b7-484f-a73f-a62e4e09a07b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR NOTICIAS - ENTREVISTA - RECOMENDADO</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a8ec74d6-af96-4468-b335-f837581db1bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>290eedfb-c631-43fe-babe-67e4e93aa6b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>79221301-fc14-4c8c-8f30-0a23ecb1b217</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>03810a62-fcc8-4652-94a0-96373810fefb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2c757928-46ed-415f-8f71-cbd79002ac75</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7f36ef4-f6bf-4e98-9dda-be34ffc07879</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - PRA</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>245a655e-8dce-47ce-9e57-b2ee79e90b32</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>595c0dd2-a8bf-4c1a-81fd-d5efe0b03b82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a61b9f44-9a26-465b-b8dd-58f22b782c00</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>01da2506-27b2-4fb6-a1d8-2b61cc2e4800</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - ESTANDAR</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>068d3f08-cddb-4379-a17e-f7698fd9bcc3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a780e0e4-19a3-4987-be47-f8edc151d9f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81695c73-02dd-4ed4-8d4b-683ce7db1d77</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3b221f9-6d3e-42a4-afdf-f4e5299f1c4e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>119aa25b-7f39-47c7-ad7a-586341a36cd1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7dd0908c-524d-45ff-8159-05bca4dff0ad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eee99197-c748-4425-996d-69506318af7f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f117e19-2c6c-4024-945d-48272369d74b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR HITOS</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8acc05e-59b8-49fc-86b4-53b378ca143f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fc69f3f1-a8d2-49b0-9c31-c321033984b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>494d9802-f6f2-48ce-ac33-0dd942260723</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b681e82c-cc9b-463b-8e5f-1732148903c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ca30b4b-873c-4ee8-b2c5-73448d870428</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>87b629f2-1334-4e7a-9672-8c36e98959d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR HITOS - ESTANDAR</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85d186a0-3098-444f-8d33-703bd858ddd7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0ae12f8-019c-482a-9ded-c0038713697c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>00b90944-fcd1-4ac2-85bf-cd496dc34935</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>097d004a-ae64-4607-a82f-3cc2e68e97c9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d5c33302-657b-4782-a7db-f47e5d6ee462</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63cb2909-c824-4e64-b68d-f8ebe57d29fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR COMPANY</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee98e410-7849-4fe5-b2f2-af90966e502f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d43dbd33-ff95-453e-a1ae-4494de1db3d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>385b3a0d-4c91-40cd-accc-c0d45a1b9e25</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e777e8a-fcd2-463b-b30f-d5d6052e7745</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR COMPANY - ESTANDAR</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>550d2514-6391-4492-84b5-671252ce219f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a6cd9fa0-2905-4fc6-95de-d227dc78e2ce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b489520-678e-4089-aab1-7076cc43e5ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>25795f20-441a-4678-a073-14045fbdf6de</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4fefd43c-2ca3-4658-833d-777aac03cdd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PERSONAS - ESTANDAR - ACCESO ESPECIAL</testCaseId>
@@ -245,7 +317,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>880332c1-3701-4ee7-8647-eb2c71acb720</guid>
+      <guid>d52a6a98-af86-4940-a905-23dba0a94d2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PERSONAS</testCaseId>
@@ -275,79 +347,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f3db6ba9-ade2-455e-a793-91f1dc9858a8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - ESTANDAR</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>068d3f08-cddb-4379-a17e-f7698fd9bcc3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a780e0e4-19a3-4987-be47-f8edc151d9f7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>81695c73-02dd-4ed4-8d4b-683ce7db1d77</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a3843ade-ee84-4245-93ee-be8525abc368</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS - PRA</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>245a655e-8dce-47ce-9e57-b2ee79e90b32</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>595c0dd2-a8bf-4c1a-81fd-d5efe0b03b82</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a61b9f44-9a26-465b-b8dd-58f22b782c00</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bf0c5d00-de05-44d6-ae27-12446a92e0fe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR PROYECTOS</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>119aa25b-7f39-47c7-ad7a-586341a36cd1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7dd0908c-524d-45ff-8159-05bca4dff0ad</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>eee99197-c748-4425-996d-69506318af7f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7281e8b2-639d-4b42-a9a5-d05c0501f0ac</guid>
+      <guid>8e078f15-7f59-4182-a22b-c39cd3669e80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR REPORTES</testCaseId>
@@ -389,7 +389,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>842732f3-9222-4e65-9ae7-338b30f563a3</guid>
+      <guid>694364f3-5316-4352-be4a-c493f0914874</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CMS - MODULO EDITAR/CREAR SET DE DATOS</testCaseId>
